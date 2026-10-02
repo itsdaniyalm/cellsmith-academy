@@ -1,0 +1,3092 @@
+[
+ {
+  "name": "ABS",
+  "category": "Math & Trig",
+  "signature": "ABS(number)",
+  "description": "Returns the absolute value of a number."
+ },
+ {
+  "name": "ACCRINT",
+  "category": "Financial",
+  "signature": "ACCRINT(issue, first_interest, settlement, rate, par, frequency, [basis], [calc_method])",
+  "description": "Returns accrued interest for a security that pays periodic interest."
+ },
+ {
+  "name": "ACCRINTM",
+  "category": "Financial",
+  "signature": "ACCRINTM(issue, settlement, rate, par, [basis])",
+  "description": "Returns accrued interest for a security that pays interest at maturity."
+ },
+ {
+  "name": "ACOS",
+  "category": "Math & Trig",
+  "signature": "ACOS(number)",
+  "description": "Returns the arccosine of a number, in radians."
+ },
+ {
+  "name": "ACOSH",
+  "category": "Math & Trig",
+  "signature": "ACOSH(number)",
+  "description": "Returns the inverse hyperbolic cosine of a number."
+ },
+ {
+  "name": "ACOT",
+  "category": "Math & Trig",
+  "signature": "ACOT(number)",
+  "description": "Returns the arccotangent of a number, in radians."
+ },
+ {
+  "name": "ACOTH",
+  "category": "Math & Trig",
+  "signature": "ACOTH(number)",
+  "description": "Returns the inverse hyperbolic cotangent of a number."
+ },
+ {
+  "name": "ADDRESS",
+  "category": "Lookup & Reference",
+  "signature": "ADDRESS(row_num, column_num, [abs_num], [a1], [sheet_text])",
+  "description": "Returns a cell reference as text."
+ },
+ {
+  "name": "AGGREGATE",
+  "category": "Math & Trig",
+  "signature": "AGGREGATE(function_num, options, ref1, [ref2], ...)",
+  "description": "Returns an aggregate (sum, average, etc.) with options to ignore errors and hidden rows."
+ },
+ {
+  "name": "AMORDEGRC",
+  "category": "Financial",
+  "signature": "AMORDEGRC(cost, date_purchased, first_period, salvage, period, rate, [basis])",
+  "description": "Returns depreciation for each accounting period (French system, degressive)."
+ },
+ {
+  "name": "AMORLINC",
+  "category": "Financial",
+  "signature": "AMORLINC(cost, date_purchased, first_period, salvage, period, rate, [basis])",
+  "description": "Returns depreciation for each accounting period (French system, linear)."
+ },
+ {
+  "name": "AND",
+  "category": "Logical",
+  "signature": "AND(logical1, [logical2], ...)",
+  "description": "Returns TRUE if all arguments are TRUE."
+ },
+ {
+  "name": "ARABIC",
+  "category": "Math & Trig",
+  "signature": "ARABIC(text)",
+  "description": "Converts a Roman numeral to an Arabic number."
+ },
+ {
+  "name": "AREAS",
+  "category": "Lookup & Reference",
+  "signature": "AREAS(reference)",
+  "description": "Returns the number of areas in a reference."
+ },
+ {
+  "name": "ARRAYTOTEXT",
+  "category": "Text",
+  "signature": "ARRAYTOTEXT(array, [format])",
+  "description": "Returns an array of text values from any specified range."
+ },
+ {
+  "name": "ASC",
+  "category": "Text",
+  "signature": "ASC(text)",
+  "description": "Changes full-width characters to half-width."
+ },
+ {
+  "name": "ASIN",
+  "category": "Math & Trig",
+  "signature": "ASIN(number)",
+  "description": "Returns the arcsine of a number, in radians."
+ },
+ {
+  "name": "ASINH",
+  "category": "Math & Trig",
+  "signature": "ASINH(number)",
+  "description": "Returns the inverse hyperbolic sine of a number."
+ },
+ {
+  "name": "ATAN",
+  "category": "Math & Trig",
+  "signature": "ATAN(number)",
+  "description": "Returns the arctangent of a number, in radians."
+ },
+ {
+  "name": "ATAN2",
+  "category": "Math & Trig",
+  "signature": "ATAN2(x_num, y_num)",
+  "description": "Returns the arctangent from x and y coordinates."
+ },
+ {
+  "name": "ATANH",
+  "category": "Math & Trig",
+  "signature": "ATANH(number)",
+  "description": "Returns the inverse hyperbolic tangent of a number."
+ },
+ {
+  "name": "AVEDEV",
+  "category": "Statistical",
+  "signature": "AVEDEV(number1, [number2], ...)",
+  "description": "Returns the average of the absolute deviations of data points from their mean."
+ },
+ {
+  "name": "AVERAGE",
+  "category": "Statistical",
+  "signature": "AVERAGE(number1, [number2], ...)",
+  "description": "Returns the average (arithmetic mean) of the arguments."
+ },
+ {
+  "name": "AVERAGEA",
+  "category": "Statistical",
+  "signature": "AVERAGEA(value1, [value2], ...)",
+  "description": "Returns the average of the arguments, including text and logical values."
+ },
+ {
+  "name": "AVERAGEIF",
+  "category": "Statistical",
+  "signature": "AVERAGEIF(range, criteria, [average_range])",
+  "description": "Returns the average of the cells that meet a criterion."
+ },
+ {
+  "name": "AVERAGEIFS",
+  "category": "Statistical",
+  "signature": "AVERAGEIFS(average_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)",
+  "description": "Returns the average of the cells that meet multiple criteria."
+ },
+ {
+  "name": "BAHTTEXT",
+  "category": "Text",
+  "signature": "BAHTTEXT(number)",
+  "description": "Converts a number to Thai text with the baht suffix."
+ },
+ {
+  "name": "BASE",
+  "category": "Math & Trig",
+  "signature": "BASE(number, radix, [min_length])",
+  "description": "Converts a number into a text representation in the given base."
+ },
+ {
+  "name": "BESSELI",
+  "category": "Engineering",
+  "signature": "BESSELI(x, n)",
+  "description": "Returns the modified Bessel function In(x)."
+ },
+ {
+  "name": "BESSELJ",
+  "category": "Engineering",
+  "signature": "BESSELJ(x, n)",
+  "description": "Returns the Bessel function Jn(x)."
+ },
+ {
+  "name": "BESSELK",
+  "category": "Engineering",
+  "signature": "BESSELK(x, n)",
+  "description": "Returns the modified Bessel function Kn(x)."
+ },
+ {
+  "name": "BESSELY",
+  "category": "Engineering",
+  "signature": "BESSELY(x, n)",
+  "description": "Returns the Bessel function Yn(x)."
+ },
+ {
+  "name": "BETA.DIST",
+  "category": "Statistical",
+  "signature": "BETA.DIST(x, alpha, beta, cumulative, [A], [B])",
+  "description": "Returns the beta cumulative distribution function."
+ },
+ {
+  "name": "BETA.INV",
+  "category": "Statistical",
+  "signature": "BETA.INV(probability, alpha, beta, [A], [B])",
+  "description": "Returns the inverse of the beta cumulative distribution function."
+ },
+ {
+  "name": "BETADIST",
+  "category": "Compatibility",
+  "signature": "BETADIST(x, alpha, beta, [A], [B])",
+  "description": "Returns the beta cumulative distribution (use BETA.DIST)."
+ },
+ {
+  "name": "BETAINV",
+  "category": "Compatibility",
+  "signature": "BETAINV(probability, alpha, beta, [A], [B])",
+  "description": "Returns the inverse of the beta cumulative distribution (use BETA.INV)."
+ },
+ {
+  "name": "BIN2DEC",
+  "category": "Engineering",
+  "signature": "BIN2DEC(number)",
+  "description": "Converts a binary number to decimal."
+ },
+ {
+  "name": "BIN2HEX",
+  "category": "Engineering",
+  "signature": "BIN2HEX(number, [places])",
+  "description": "Converts a binary number to hexadecimal."
+ },
+ {
+  "name": "BIN2OCT",
+  "category": "Engineering",
+  "signature": "BIN2OCT(number, [places])",
+  "description": "Converts a binary number to octal."
+ },
+ {
+  "name": "BINOM.DIST",
+  "category": "Statistical",
+  "signature": "BINOM.DIST(number_s, trials, probability_s, cumulative)",
+  "description": "Returns the individual term binomial distribution probability."
+ },
+ {
+  "name": "BINOM.DIST.RANGE",
+  "category": "Statistical",
+  "signature": "BINOM.DIST.RANGE(trials, probability_s, number_s, [number_s2])",
+  "description": "Returns the probability of a trial result using a binomial distribution."
+ },
+ {
+  "name": "BINOM.INV",
+  "category": "Statistical",
+  "signature": "BINOM.INV(trials, probability_s, alpha)",
+  "description": "Returns the smallest value for which the cumulative binomial distribution is at least a criterion."
+ },
+ {
+  "name": "BINOMDIST",
+  "category": "Compatibility",
+  "signature": "BINOMDIST(number_s, trials, probability_s, cumulative)",
+  "description": "Returns the binomial distribution probability (use BINOM.DIST)."
+ },
+ {
+  "name": "BITAND",
+  "category": "Engineering",
+  "signature": "BITAND(number1, number2)",
+  "description": "Returns a bitwise AND of two numbers."
+ },
+ {
+  "name": "BITLSHIFT",
+  "category": "Engineering",
+  "signature": "BITLSHIFT(number, shift_amount)",
+  "description": "Returns a number shifted left by the given number of bits."
+ },
+ {
+  "name": "BITOR",
+  "category": "Engineering",
+  "signature": "BITOR(number1, number2)",
+  "description": "Returns a bitwise OR of two numbers."
+ },
+ {
+  "name": "BITRSHIFT",
+  "category": "Engineering",
+  "signature": "BITRSHIFT(number, shift_amount)",
+  "description": "Returns a number shifted right by the given number of bits."
+ },
+ {
+  "name": "BITXOR",
+  "category": "Engineering",
+  "signature": "BITXOR(number1, number2)",
+  "description": "Returns a bitwise XOR of two numbers."
+ },
+ {
+  "name": "BYCOL",
+  "category": "Logical",
+  "signature": "BYCOL(array, lambda)",
+  "description": "Applies a LAMBDA to each column and returns an array of the results."
+ },
+ {
+  "name": "BYROW",
+  "category": "Logical",
+  "signature": "BYROW(array, lambda)",
+  "description": "Applies a LAMBDA to each row and returns an array of the results."
+ },
+ {
+  "name": "CEILING",
+  "category": "Math & Trig",
+  "signature": "CEILING(number, significance)",
+  "description": "Rounds a number up to the nearest multiple of significance."
+ },
+ {
+  "name": "CEILING.MATH",
+  "category": "Math & Trig",
+  "signature": "CEILING.MATH(number, [significance], [mode])",
+  "description": "Rounds a number up to the nearest integer or multiple of significance."
+ },
+ {
+  "name": "CEILING.PRECISE",
+  "category": "Math & Trig",
+  "signature": "CEILING.PRECISE(number, [significance])",
+  "description": "Rounds a number up to the nearest integer or multiple, regardless of sign."
+ },
+ {
+  "name": "CELL",
+  "category": "Information",
+  "signature": "CELL(info_type, [reference])",
+  "description": "Returns information about the formatting, location or contents of a cell."
+ },
+ {
+  "name": "CHAR",
+  "category": "Text",
+  "signature": "CHAR(number)",
+  "description": "Returns the character specified by the code number."
+ },
+ {
+  "name": "CHIDIST",
+  "category": "Compatibility",
+  "signature": "CHIDIST(x, deg_freedom)",
+  "description": "Returns the right-tailed chi-squared distribution (use CHISQ.DIST.RT)."
+ },
+ {
+  "name": "CHIINV",
+  "category": "Compatibility",
+  "signature": "CHIINV(probability, deg_freedom)",
+  "description": "Returns the inverse of the right-tailed chi-squared distribution (use CHISQ.INV.RT)."
+ },
+ {
+  "name": "CHISQ.DIST",
+  "category": "Statistical",
+  "signature": "CHISQ.DIST(x, deg_freedom, cumulative)",
+  "description": "Returns the left-tailed chi-squared distribution."
+ },
+ {
+  "name": "CHISQ.DIST.RT",
+  "category": "Statistical",
+  "signature": "CHISQ.DIST.RT(x, deg_freedom)",
+  "description": "Returns the right-tailed chi-squared distribution."
+ },
+ {
+  "name": "CHISQ.INV",
+  "category": "Statistical",
+  "signature": "CHISQ.INV(probability, deg_freedom)",
+  "description": "Returns the inverse of the left-tailed chi-squared distribution."
+ },
+ {
+  "name": "CHISQ.INV.RT",
+  "category": "Statistical",
+  "signature": "CHISQ.INV.RT(probability, deg_freedom)",
+  "description": "Returns the inverse of the right-tailed chi-squared distribution."
+ },
+ {
+  "name": "CHISQ.TEST",
+  "category": "Statistical",
+  "signature": "CHISQ.TEST(actual_range, expected_range)",
+  "description": "Returns the test for independence."
+ },
+ {
+  "name": "CHITEST",
+  "category": "Compatibility",
+  "signature": "CHITEST(actual_range, expected_range)",
+  "description": "Returns the test for independence (use CHISQ.TEST)."
+ },
+ {
+  "name": "CHOOSE",
+  "category": "Lookup & Reference",
+  "signature": "CHOOSE(index_num, value1, [value2], ...)",
+  "description": "Chooses a value from a list based on an index number."
+ },
+ {
+  "name": "CHOOSECOLS",
+  "category": "Lookup & Reference",
+  "signature": "CHOOSECOLS(array, col_num1, [col_num2], ...)",
+  "description": "Returns the specified columns from an array."
+ },
+ {
+  "name": "CHOOSEROWS",
+  "category": "Lookup & Reference",
+  "signature": "CHOOSEROWS(array, row_num1, [row_num2], ...)",
+  "description": "Returns the specified rows from an array."
+ },
+ {
+  "name": "CLEAN",
+  "category": "Text",
+  "signature": "CLEAN(text)",
+  "description": "Removes all nonprintable characters from text."
+ },
+ {
+  "name": "CODE",
+  "category": "Text",
+  "signature": "CODE(text)",
+  "description": "Returns the numeric code of the first character in a text string."
+ },
+ {
+  "name": "COLUMN",
+  "category": "Lookup & Reference",
+  "signature": "COLUMN([reference])",
+  "description": "Returns the column number of a reference."
+ },
+ {
+  "name": "COLUMNS",
+  "category": "Lookup & Reference",
+  "signature": "COLUMNS(array)",
+  "description": "Returns the number of columns in a reference or array."
+ },
+ {
+  "name": "COMBIN",
+  "category": "Math & Trig",
+  "signature": "COMBIN(number, number_chosen)",
+  "description": "Returns the number of combinations for a given number of items."
+ },
+ {
+  "name": "COMBINA",
+  "category": "Math & Trig",
+  "signature": "COMBINA(number, number_chosen)",
+  "description": "Returns the number of combinations with repetitions."
+ },
+ {
+  "name": "COMPLEX",
+  "category": "Engineering",
+  "signature": "COMPLEX(real_num, i_num, [suffix])",
+  "description": "Converts real and imaginary coefficients into a complex number."
+ },
+ {
+  "name": "CONCAT",
+  "category": "Text",
+  "signature": "CONCAT(text1, [text2], ...)",
+  "description": "Combines text from multiple ranges and/or strings."
+ },
+ {
+  "name": "CONCATENATE",
+  "category": "Text",
+  "signature": "CONCATENATE(text1, [text2], ...)",
+  "description": "Joins several text items into one text item."
+ },
+ {
+  "name": "CONFIDENCE",
+  "category": "Compatibility",
+  "signature": "CONFIDENCE(alpha, standard_dev, size)",
+  "description": "Returns the confidence interval for a population mean (use CONFIDENCE.NORM)."
+ },
+ {
+  "name": "CONFIDENCE.NORM",
+  "category": "Statistical",
+  "signature": "CONFIDENCE.NORM(alpha, standard_dev, size)",
+  "description": "Returns the confidence interval for a population mean (normal distribution)."
+ },
+ {
+  "name": "CONFIDENCE.T",
+  "category": "Statistical",
+  "signature": "CONFIDENCE.T(alpha, standard_dev, size)",
+  "description": "Returns the confidence interval for a population mean (Student t distribution)."
+ },
+ {
+  "name": "CONVERT",
+  "category": "Engineering",
+  "signature": "CONVERT(number, from_unit, to_unit)",
+  "description": "Converts a number from one measurement system to another."
+ },
+ {
+  "name": "CORREL",
+  "category": "Statistical",
+  "signature": "CORREL(array1, array2)",
+  "description": "Returns the correlation coefficient between two data sets."
+ },
+ {
+  "name": "COS",
+  "category": "Math & Trig",
+  "signature": "COS(number)",
+  "description": "Returns the cosine of an angle in radians."
+ },
+ {
+  "name": "COSH",
+  "category": "Math & Trig",
+  "signature": "COSH(number)",
+  "description": "Returns the hyperbolic cosine of a number."
+ },
+ {
+  "name": "COT",
+  "category": "Math & Trig",
+  "signature": "COT(number)",
+  "description": "Returns the cotangent of an angle in radians."
+ },
+ {
+  "name": "COTH",
+  "category": "Math & Trig",
+  "signature": "COTH(number)",
+  "description": "Returns the hyperbolic cotangent of a number."
+ },
+ {
+  "name": "COUNT",
+  "category": "Statistical",
+  "signature": "COUNT(value1, [value2], ...)",
+  "description": "Counts how many cells contain numbers."
+ },
+ {
+  "name": "COUNTA",
+  "category": "Statistical",
+  "signature": "COUNTA(value1, [value2], ...)",
+  "description": "Counts how many cells are not empty."
+ },
+ {
+  "name": "COUNTBLANK",
+  "category": "Statistical",
+  "signature": "COUNTBLANK(range)",
+  "description": "Counts the empty cells in a range."
+ },
+ {
+  "name": "COUNTIF",
+  "category": "Statistical",
+  "signature": "COUNTIF(range, criteria)",
+  "description": "Counts the cells that meet a criterion."
+ },
+ {
+  "name": "COUNTIFS",
+  "category": "Statistical",
+  "signature": "COUNTIFS(criteria_range1, criteria1, [criteria_range2, criteria2], ...)",
+  "description": "Counts the cells that meet multiple criteria."
+ },
+ {
+  "name": "COUPDAYBS",
+  "category": "Financial",
+  "signature": "COUPDAYBS(settlement, maturity, frequency, [basis])",
+  "description": "Returns days from the start of the coupon period to the settlement date."
+ },
+ {
+  "name": "COUPDAYS",
+  "category": "Financial",
+  "signature": "COUPDAYS(settlement, maturity, frequency, [basis])",
+  "description": "Returns the number of days in the coupon period containing settlement."
+ },
+ {
+  "name": "COUPDAYSNC",
+  "category": "Financial",
+  "signature": "COUPDAYSNC(settlement, maturity, frequency, [basis])",
+  "description": "Returns days from the settlement date to the next coupon date."
+ },
+ {
+  "name": "COUPNCD",
+  "category": "Financial",
+  "signature": "COUPNCD(settlement, maturity, frequency, [basis])",
+  "description": "Returns the next coupon date after the settlement date."
+ },
+ {
+  "name": "COUPNUM",
+  "category": "Financial",
+  "signature": "COUPNUM(settlement, maturity, frequency, [basis])",
+  "description": "Returns the number of coupons payable between settlement and maturity."
+ },
+ {
+  "name": "COUPPCD",
+  "category": "Financial",
+  "signature": "COUPPCD(settlement, maturity, frequency, [basis])",
+  "description": "Returns the previous coupon date before the settlement date."
+ },
+ {
+  "name": "COVAR",
+  "category": "Compatibility",
+  "signature": "COVAR(array1, array2)",
+  "description": "Returns covariance (use COVARIANCE.P)."
+ },
+ {
+  "name": "COVARIANCE.P",
+  "category": "Statistical",
+  "signature": "COVARIANCE.P(array1, array2)",
+  "description": "Returns population covariance."
+ },
+ {
+  "name": "COVARIANCE.S",
+  "category": "Statistical",
+  "signature": "COVARIANCE.S(array1, array2)",
+  "description": "Returns sample covariance."
+ },
+ {
+  "name": "CRITBINOM",
+  "category": "Compatibility",
+  "signature": "CRITBINOM(trials, probability_s, alpha)",
+  "description": "Returns the smallest value for which the cumulative binomial distribution is at least a criterion (use BINOM.INV)."
+ },
+ {
+  "name": "CSC",
+  "category": "Math & Trig",
+  "signature": "CSC(number)",
+  "description": "Returns the cosecant of an angle in radians."
+ },
+ {
+  "name": "CSCH",
+  "category": "Math & Trig",
+  "signature": "CSCH(number)",
+  "description": "Returns the hyperbolic cosecant of an angle."
+ },
+ {
+  "name": "CUBEKPIMEMBER",
+  "category": "Cube",
+  "signature": "CUBEKPIMEMBER(connection, kpi_name, kpi_property, [caption])",
+  "description": "Returns a key performance indicator property from a cube."
+ },
+ {
+  "name": "CUBEMEMBER",
+  "category": "Cube",
+  "signature": "CUBEMEMBER(connection, member_expression, [caption])",
+  "description": "Returns a member or tuple from the cube."
+ },
+ {
+  "name": "CUBEMEMBERPROPERTY",
+  "category": "Cube",
+  "signature": "CUBEMEMBERPROPERTY(connection, member_expression, property)",
+  "description": "Returns the value of a member property in the cube."
+ },
+ {
+  "name": "CUBERANKEDMEMBER",
+  "category": "Cube",
+  "signature": "CUBERANKEDMEMBER(connection, set_expression, rank, [caption])",
+  "description": "Returns the n-th, or ranked, member in a set."
+ },
+ {
+  "name": "CUBESET",
+  "category": "Cube",
+  "signature": "CUBESET(connection, set_expression, [caption], [sort_order], [sort_by])",
+  "description": "Defines a calculated set of members or tuples."
+ },
+ {
+  "name": "CUBESETCOUNT",
+  "category": "Cube",
+  "signature": "CUBESETCOUNT(set)",
+  "description": "Returns the number of items in a set."
+ },
+ {
+  "name": "CUBEVALUE",
+  "category": "Cube",
+  "signature": "CUBEVALUE(connection, [member_expression1], ...)",
+  "description": "Returns an aggregated value from the cube."
+ },
+ {
+  "name": "CUMIPMT",
+  "category": "Financial",
+  "signature": "CUMIPMT(rate, nper, pv, start_period, end_period, type)",
+  "description": "Returns the cumulative interest paid between two periods."
+ },
+ {
+  "name": "CUMPRINC",
+  "category": "Financial",
+  "signature": "CUMPRINC(rate, nper, pv, start_period, end_period, type)",
+  "description": "Returns the cumulative principal paid on a loan between two periods."
+ },
+ {
+  "name": "DATE",
+  "category": "Date & Time",
+  "signature": "DATE(year, month, day)",
+  "description": "Returns the serial number of a particular date."
+ },
+ {
+  "name": "DATEDIF",
+  "category": "Date & Time",
+  "signature": "DATEDIF(start_date, end_date, unit)",
+  "description": "Calculates the difference between two dates in days, months or years."
+ },
+ {
+  "name": "DATEVALUE",
+  "category": "Date & Time",
+  "signature": "DATEVALUE(date_text)",
+  "description": "Converts a date in text form to a serial number."
+ },
+ {
+  "name": "DAVERAGE",
+  "category": "Database",
+  "signature": "DAVERAGE(database, field, criteria)",
+  "description": "Returns the average of selected database entries."
+ },
+ {
+  "name": "DAY",
+  "category": "Date & Time",
+  "signature": "DAY(serial_number)",
+  "description": "Converts a serial number to a day of the month."
+ },
+ {
+  "name": "DAYS",
+  "category": "Date & Time",
+  "signature": "DAYS(end_date, start_date)",
+  "description": "Returns the number of days between two dates."
+ },
+ {
+  "name": "DAYS360",
+  "category": "Date & Time",
+  "signature": "DAYS360(start_date, end_date, [method])",
+  "description": "Calculates days between two dates based on a 360-day year."
+ },
+ {
+  "name": "DB",
+  "category": "Financial",
+  "signature": "DB(cost, salvage, life, period, [month])",
+  "description": "Returns depreciation using the fixed-declining balance method."
+ },
+ {
+  "name": "DBCS",
+  "category": "Text",
+  "signature": "DBCS(text)",
+  "description": "Changes half-width characters to full-width."
+ },
+ {
+  "name": "DCOUNT",
+  "category": "Database",
+  "signature": "DCOUNT(database, field, criteria)",
+  "description": "Counts the cells that contain numbers in a database."
+ },
+ {
+  "name": "DCOUNTA",
+  "category": "Database",
+  "signature": "DCOUNTA(database, field, criteria)",
+  "description": "Counts nonblank cells in a database."
+ },
+ {
+  "name": "DDB",
+  "category": "Financial",
+  "signature": "DDB(cost, salvage, life, period, [factor])",
+  "description": "Returns depreciation using the double-declining balance method."
+ },
+ {
+  "name": "DEC2BIN",
+  "category": "Engineering",
+  "signature": "DEC2BIN(number, [places])",
+  "description": "Converts a decimal number to binary."
+ },
+ {
+  "name": "DEC2HEX",
+  "category": "Engineering",
+  "signature": "DEC2HEX(number, [places])",
+  "description": "Converts a decimal number to hexadecimal."
+ },
+ {
+  "name": "DEC2OCT",
+  "category": "Engineering",
+  "signature": "DEC2OCT(number, [places])",
+  "description": "Converts a decimal number to octal."
+ },
+ {
+  "name": "DECIMAL",
+  "category": "Math & Trig",
+  "signature": "DECIMAL(text, radix)",
+  "description": "Converts a text representation of a number in a given base into a decimal number."
+ },
+ {
+  "name": "DEGREES",
+  "category": "Math & Trig",
+  "signature": "DEGREES(angle)",
+  "description": "Converts radians to degrees."
+ },
+ {
+  "name": "DELTA",
+  "category": "Engineering",
+  "signature": "DELTA(number1, [number2])",
+  "description": "Tests whether two values are equal."
+ },
+ {
+  "name": "DEVSQ",
+  "category": "Statistical",
+  "signature": "DEVSQ(number1, [number2], ...)",
+  "description": "Returns the sum of squares of deviations."
+ },
+ {
+  "name": "DGET",
+  "category": "Database",
+  "signature": "DGET(database, field, criteria)",
+  "description": "Extracts a single record that matches the criteria."
+ },
+ {
+  "name": "DISC",
+  "category": "Financial",
+  "signature": "DISC(settlement, maturity, pr, redemption, [basis])",
+  "description": "Returns the discount rate for a security."
+ },
+ {
+  "name": "DMAX",
+  "category": "Database",
+  "signature": "DMAX(database, field, criteria)",
+  "description": "Returns the maximum value from selected database entries."
+ },
+ {
+  "name": "DMIN",
+  "category": "Database",
+  "signature": "DMIN(database, field, criteria)",
+  "description": "Returns the minimum value from selected database entries."
+ },
+ {
+  "name": "DOLLAR",
+  "category": "Text",
+  "signature": "DOLLAR(number, [decimals])",
+  "description": "Converts a number to text using currency format."
+ },
+ {
+  "name": "DOLLARDE",
+  "category": "Financial",
+  "signature": "DOLLARDE(fractional_dollar, fraction)",
+  "description": "Converts a fractional dollar price to a decimal."
+ },
+ {
+  "name": "DOLLARFR",
+  "category": "Financial",
+  "signature": "DOLLARFR(decimal_dollar, fraction)",
+  "description": "Converts a decimal dollar price to a fraction."
+ },
+ {
+  "name": "DPRODUCT",
+  "category": "Database",
+  "signature": "DPRODUCT(database, field, criteria)",
+  "description": "Multiplies the values in a field of matching records."
+ },
+ {
+  "name": "DROP",
+  "category": "Lookup & Reference",
+  "signature": "DROP(array, rows, [columns])",
+  "description": "Excludes a number of rows or columns from the start or end of an array."
+ },
+ {
+  "name": "DSTDEV",
+  "category": "Database",
+  "signature": "DSTDEV(database, field, criteria)",
+  "description": "Estimates standard deviation based on a sample of selected entries."
+ },
+ {
+  "name": "DSTDEVP",
+  "category": "Database",
+  "signature": "DSTDEVP(database, field, criteria)",
+  "description": "Calculates standard deviation based on the entire population of selected entries."
+ },
+ {
+  "name": "DSUM",
+  "category": "Database",
+  "signature": "DSUM(database, field, criteria)",
+  "description": "Adds the numbers in the field column of matching records."
+ },
+ {
+  "name": "DURATION",
+  "category": "Financial",
+  "signature": "DURATION(settlement, maturity, coupon, yld, frequency, [basis])",
+  "description": "Returns the annual duration of a security with periodic interest."
+ },
+ {
+  "name": "DVAR",
+  "category": "Database",
+  "signature": "DVAR(database, field, criteria)",
+  "description": "Estimates variance based on a sample from selected entries."
+ },
+ {
+  "name": "DVARP",
+  "category": "Database",
+  "signature": "DVARP(database, field, criteria)",
+  "description": "Calculates variance based on the entire population of selected entries."
+ },
+ {
+  "name": "EDATE",
+  "category": "Date & Time",
+  "signature": "EDATE(start_date, months)",
+  "description": "Returns the date a number of months before or after a start date."
+ },
+ {
+  "name": "EFFECT",
+  "category": "Financial",
+  "signature": "EFFECT(nominal_rate, npery)",
+  "description": "Returns the effective annual interest rate."
+ },
+ {
+  "name": "ENCODEURL",
+  "category": "Web",
+  "signature": "ENCODEURL(text)",
+  "description": "Returns a URL-encoded string."
+ },
+ {
+  "name": "EOMONTH",
+  "category": "Date & Time",
+  "signature": "EOMONTH(start_date, months)",
+  "description": "Returns the last day of the month a number of months away."
+ },
+ {
+  "name": "ERF",
+  "category": "Engineering",
+  "signature": "ERF(lower_limit, [upper_limit])",
+  "description": "Returns the error function."
+ },
+ {
+  "name": "ERF.PRECISE",
+  "category": "Engineering",
+  "signature": "ERF.PRECISE(x)",
+  "description": "Returns the error function."
+ },
+ {
+  "name": "ERFC",
+  "category": "Engineering",
+  "signature": "ERFC(x)",
+  "description": "Returns the complementary error function."
+ },
+ {
+  "name": "ERFC.PRECISE",
+  "category": "Engineering",
+  "signature": "ERFC.PRECISE(x)",
+  "description": "Returns the complementary ERF function integrated between x and infinity."
+ },
+ {
+  "name": "ERROR.TYPE",
+  "category": "Information",
+  "signature": "ERROR.TYPE(error_val)",
+  "description": "Returns a number corresponding to an error type."
+ },
+ {
+  "name": "EVEN",
+  "category": "Math & Trig",
+  "signature": "EVEN(number)",
+  "description": "Rounds a number up to the nearest even integer."
+ },
+ {
+  "name": "EXACT",
+  "category": "Text",
+  "signature": "EXACT(text1, text2)",
+  "description": "Checks whether two text values are identical (case-sensitive)."
+ },
+ {
+  "name": "EXP",
+  "category": "Math & Trig",
+  "signature": "EXP(number)",
+  "description": "Returns e raised to the power of a number."
+ },
+ {
+  "name": "EXPAND",
+  "category": "Lookup & Reference",
+  "signature": "EXPAND(array, rows, [columns], [pad_with])",
+  "description": "Expands an array to the specified dimensions."
+ },
+ {
+  "name": "EXPON.DIST",
+  "category": "Statistical",
+  "signature": "EXPON.DIST(x, lambda, cumulative)",
+  "description": "Returns the exponential distribution."
+ },
+ {
+  "name": "EXPONDIST",
+  "category": "Compatibility",
+  "signature": "EXPONDIST(x, lambda, cumulative)",
+  "description": "Returns the exponential distribution (use EXPON.DIST)."
+ },
+ {
+  "name": "F.DIST",
+  "category": "Statistical",
+  "signature": "F.DIST(x, deg_freedom1, deg_freedom2, cumulative)",
+  "description": "Returns the left-tailed F probability distribution."
+ },
+ {
+  "name": "F.DIST.RT",
+  "category": "Statistical",
+  "signature": "F.DIST.RT(x, deg_freedom1, deg_freedom2)",
+  "description": "Returns the right-tailed F probability distribution."
+ },
+ {
+  "name": "F.INV",
+  "category": "Statistical",
+  "signature": "F.INV(probability, deg_freedom1, deg_freedom2)",
+  "description": "Returns the inverse of the left-tailed F probability distribution."
+ },
+ {
+  "name": "F.INV.RT",
+  "category": "Statistical",
+  "signature": "F.INV.RT(probability, deg_freedom1, deg_freedom2)",
+  "description": "Returns the inverse of the right-tailed F probability distribution."
+ },
+ {
+  "name": "F.TEST",
+  "category": "Statistical",
+  "signature": "F.TEST(array1, array2)",
+  "description": "Returns the result of an F-test."
+ },
+ {
+  "name": "FACT",
+  "category": "Math & Trig",
+  "signature": "FACT(number)",
+  "description": "Returns the factorial of a number."
+ },
+ {
+  "name": "FACTDOUBLE",
+  "category": "Math & Trig",
+  "signature": "FACTDOUBLE(number)",
+  "description": "Returns the double factorial of a number."
+ },
+ {
+  "name": "FALSE",
+  "category": "Logical",
+  "signature": "FALSE()",
+  "description": "Returns the logical value FALSE."
+ },
+ {
+  "name": "FDIST",
+  "category": "Compatibility",
+  "signature": "FDIST(x, deg_freedom1, deg_freedom2)",
+  "description": "Returns the right-tailed F distribution (use F.DIST.RT)."
+ },
+ {
+  "name": "FILTER",
+  "category": "Lookup & Reference",
+  "signature": "FILTER(array, include, [if_empty])",
+  "description": "Filters a range or array based on criteria you define."
+ },
+ {
+  "name": "FILTERXML",
+  "category": "Web",
+  "signature": "FILTERXML(xml, xpath)",
+  "description": "Returns specific data from XML content using an XPath."
+ },
+ {
+  "name": "FIND",
+  "category": "Text",
+  "signature": "FIND(find_text, within_text, [start_num])",
+  "description": "Finds one text value within another (case-sensitive)."
+ },
+ {
+  "name": "FINDB",
+  "category": "Text",
+  "signature": "FINDB(find_text, within_text, [start_num])",
+  "description": "Finds one text value within another by bytes (case-sensitive)."
+ },
+ {
+  "name": "FINV",
+  "category": "Compatibility",
+  "signature": "FINV(probability, deg_freedom1, deg_freedom2)",
+  "description": "Returns the inverse of the right-tailed F distribution (use F.INV.RT)."
+ },
+ {
+  "name": "FISHER",
+  "category": "Statistical",
+  "signature": "FISHER(x)",
+  "description": "Returns the Fisher transformation."
+ },
+ {
+  "name": "FISHERINV",
+  "category": "Statistical",
+  "signature": "FISHERINV(y)",
+  "description": "Returns the inverse of the Fisher transformation."
+ },
+ {
+  "name": "FIXED",
+  "category": "Text",
+  "signature": "FIXED(number, [decimals], [no_commas])",
+  "description": "Formats a number as text with a fixed number of decimals."
+ },
+ {
+  "name": "FLOOR",
+  "category": "Math & Trig",
+  "signature": "FLOOR(number, significance)",
+  "description": "Rounds a number down, toward zero, to the nearest multiple of significance."
+ },
+ {
+  "name": "FLOOR.MATH",
+  "category": "Math & Trig",
+  "signature": "FLOOR.MATH(number, [significance], [mode])",
+  "description": "Rounds a number down to the nearest integer or multiple of significance."
+ },
+ {
+  "name": "FLOOR.PRECISE",
+  "category": "Math & Trig",
+  "signature": "FLOOR.PRECISE(number, [significance])",
+  "description": "Rounds a number down to the nearest integer or multiple, regardless of sign."
+ },
+ {
+  "name": "FORECAST",
+  "category": "Statistical",
+  "signature": "FORECAST(x, known_y's, known_x's)",
+  "description": "Calculates a future value along a linear trend (compatibility)."
+ },
+ {
+  "name": "FORECAST.ETS",
+  "category": "Statistical",
+  "signature": "FORECAST.ETS(target_date, values, timeline, [seasonality], [data_completion], [aggregation])",
+  "description": "Calculates a future value using exponential triple smoothing (AAA)."
+ },
+ {
+  "name": "FORECAST.ETS.CONFINT",
+  "category": "Statistical",
+  "signature": "FORECAST.ETS.CONFINT(target_date, values, timeline, [confidence_level], [seasonality], [data_completion], [aggregation])",
+  "description": "Returns a confidence interval for the forecast value."
+ },
+ {
+  "name": "FORECAST.ETS.SEASONALITY",
+  "category": "Statistical",
+  "signature": "FORECAST.ETS.SEASONALITY(values, timeline, [data_completion], [aggregation])",
+  "description": "Returns the length of the repetitive pattern Excel detects."
+ },
+ {
+  "name": "FORECAST.ETS.STAT",
+  "category": "Statistical",
+  "signature": "FORECAST.ETS.STAT(values, timeline, statistic_type, [seasonality], [data_completion], [aggregation])",
+  "description": "Returns a statistic of the exponential smoothing forecast."
+ },
+ {
+  "name": "FORECAST.LINEAR",
+  "category": "Statistical",
+  "signature": "FORECAST.LINEAR(x, known_y's, known_x's)",
+  "description": "Calculates a future value along a linear trend."
+ },
+ {
+  "name": "FORMULATEXT",
+  "category": "Lookup & Reference",
+  "signature": "FORMULATEXT(reference)",
+  "description": "Returns the formula at a reference as text."
+ },
+ {
+  "name": "FREQUENCY",
+  "category": "Statistical",
+  "signature": "FREQUENCY(data_array, bins_array)",
+  "description": "Returns a frequency distribution as a vertical array."
+ },
+ {
+  "name": "FTEST",
+  "category": "Compatibility",
+  "signature": "FTEST(array1, array2)",
+  "description": "Returns the result of an F-test (use F.TEST)."
+ },
+ {
+  "name": "FV",
+  "category": "Financial",
+  "signature": "FV(rate, nper, pmt, [pv], [type])",
+  "description": "Returns the future value of an investment."
+ },
+ {
+  "name": "FVSCHEDULE",
+  "category": "Financial",
+  "signature": "FVSCHEDULE(principal, schedule)",
+  "description": "Returns the future value of a principal after a series of compound rates."
+ },
+ {
+  "name": "GAMMA",
+  "category": "Statistical",
+  "signature": "GAMMA(x)",
+  "description": "Returns the gamma function value."
+ },
+ {
+  "name": "GAMMA.DIST",
+  "category": "Statistical",
+  "signature": "GAMMA.DIST(x, alpha, beta, cumulative)",
+  "description": "Returns the gamma distribution."
+ },
+ {
+  "name": "GAMMA.INV",
+  "category": "Statistical",
+  "signature": "GAMMA.INV(probability, alpha, beta)",
+  "description": "Returns the inverse of the gamma cumulative distribution."
+ },
+ {
+  "name": "GAMMADIST",
+  "category": "Compatibility",
+  "signature": "GAMMADIST(x, alpha, beta, cumulative)",
+  "description": "Returns the gamma distribution (use GAMMA.DIST)."
+ },
+ {
+  "name": "GAMMAINV",
+  "category": "Compatibility",
+  "signature": "GAMMAINV(probability, alpha, beta)",
+  "description": "Returns the inverse of the gamma cumulative distribution (use GAMMA.INV)."
+ },
+ {
+  "name": "GAMMALN",
+  "category": "Statistical",
+  "signature": "GAMMALN(x)",
+  "description": "Returns the natural logarithm of the gamma function."
+ },
+ {
+  "name": "GAMMALN.PRECISE",
+  "category": "Statistical",
+  "signature": "GAMMALN.PRECISE(x)",
+  "description": "Returns the natural logarithm of the gamma function."
+ },
+ {
+  "name": "GAUSS",
+  "category": "Statistical",
+  "signature": "GAUSS(z)",
+  "description": "Returns 0.5 less than the standard normal cumulative distribution."
+ },
+ {
+  "name": "GCD",
+  "category": "Math & Trig",
+  "signature": "GCD(number1, [number2], ...)",
+  "description": "Returns the greatest common divisor."
+ },
+ {
+  "name": "GEOMEAN",
+  "category": "Statistical",
+  "signature": "GEOMEAN(number1, [number2], ...)",
+  "description": "Returns the geometric mean."
+ },
+ {
+  "name": "GESTEP",
+  "category": "Engineering",
+  "signature": "GESTEP(number, [step])",
+  "description": "Tests whether a number is greater than a threshold value."
+ },
+ {
+  "name": "GETPIVOTDATA",
+  "category": "Lookup & Reference",
+  "signature": "GETPIVOTDATA(data_field, pivot_table, [field1, item1], ...)",
+  "description": "Returns data stored in a PivotTable report."
+ },
+ {
+  "name": "GROUPBY",
+  "category": "Lookup & Reference",
+  "signature": "GROUPBY(row_fields, values, function, [field_headers], [total_depth], [sort_order], [filter_array], [field_relationship])",
+  "description": "Groups, aggregates, sorts and filters data by row fields."
+ },
+ {
+  "name": "GROWTH",
+  "category": "Statistical",
+  "signature": "GROWTH(known_y's, [known_x's], [new_x's], [const])",
+  "description": "Returns values along an exponential trend."
+ },
+ {
+  "name": "HARMEAN",
+  "category": "Statistical",
+  "signature": "HARMEAN(number1, [number2], ...)",
+  "description": "Returns the harmonic mean."
+ },
+ {
+  "name": "HEX2BIN",
+  "category": "Engineering",
+  "signature": "HEX2BIN(number, [places])",
+  "description": "Converts a hexadecimal number to binary."
+ },
+ {
+  "name": "HEX2DEC",
+  "category": "Engineering",
+  "signature": "HEX2DEC(number)",
+  "description": "Converts a hexadecimal number to decimal."
+ },
+ {
+  "name": "HEX2OCT",
+  "category": "Engineering",
+  "signature": "HEX2OCT(number, [places])",
+  "description": "Converts a hexadecimal number to octal."
+ },
+ {
+  "name": "HLOOKUP",
+  "category": "Lookup & Reference",
+  "signature": "HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])",
+  "description": "Looks in the top row of a table and returns the value in a given row."
+ },
+ {
+  "name": "HOUR",
+  "category": "Date & Time",
+  "signature": "HOUR(serial_number)",
+  "description": "Converts a serial number to an hour."
+ },
+ {
+  "name": "HSTACK",
+  "category": "Lookup & Reference",
+  "signature": "HSTACK(array1, [array2], ...)",
+  "description": "Appends arrays horizontally, one after the other."
+ },
+ {
+  "name": "HYPERLINK",
+  "category": "Lookup & Reference",
+  "signature": "HYPERLINK(link_location, [friendly_name])",
+  "description": "Creates a shortcut that opens a document or web page."
+ },
+ {
+  "name": "HYPGEOM.DIST",
+  "category": "Statistical",
+  "signature": "HYPGEOM.DIST(sample_s, number_sample, population_s, number_pop, cumulative)",
+  "description": "Returns the hypergeometric distribution."
+ },
+ {
+  "name": "HYPGEOMDIST",
+  "category": "Compatibility",
+  "signature": "HYPGEOMDIST(sample_s, number_sample, population_s, number_pop)",
+  "description": "Returns the hypergeometric distribution (use HYPGEOM.DIST)."
+ },
+ {
+  "name": "IF",
+  "category": "Logical",
+  "signature": "IF(logical_test, [value_if_true], [value_if_false])",
+  "description": "Returns one value if a condition is TRUE and another if it is FALSE."
+ },
+ {
+  "name": "IFERROR",
+  "category": "Logical",
+  "signature": "IFERROR(value, value_if_error)",
+  "description": "Returns value_if_error if the expression is an error, otherwise the expression."
+ },
+ {
+  "name": "IFNA",
+  "category": "Logical",
+  "signature": "IFNA(value, value_if_na)",
+  "description": "Returns the value you specify if the expression resolves to #N/A."
+ },
+ {
+  "name": "IFS",
+  "category": "Logical",
+  "signature": "IFS(logical_test1, value_if_true1, [logical_test2, value_if_true2], ...)",
+  "description": "Checks conditions in order and returns the value for the first TRUE one."
+ },
+ {
+  "name": "IMABS",
+  "category": "Engineering",
+  "signature": "IMABS(inumber)",
+  "description": "Returns the absolute value (modulus) of a complex number."
+ },
+ {
+  "name": "IMAGE",
+  "category": "Web",
+  "signature": "IMAGE(source, [alt_text], [sizing], [height], [width])",
+  "description": "Returns an image from a source URL."
+ },
+ {
+  "name": "IMAGINARY",
+  "category": "Engineering",
+  "signature": "IMAGINARY(inumber)",
+  "description": "Returns the imaginary coefficient of a complex number."
+ },
+ {
+  "name": "IMARGUMENT",
+  "category": "Engineering",
+  "signature": "IMARGUMENT(inumber)",
+  "description": "Returns the argument theta, an angle expressed in radians."
+ },
+ {
+  "name": "IMCONJUGATE",
+  "category": "Engineering",
+  "signature": "IMCONJUGATE(inumber)",
+  "description": "Returns the complex conjugate of a complex number."
+ },
+ {
+  "name": "IMCOS",
+  "category": "Engineering",
+  "signature": "IMCOS(inumber)",
+  "description": "Returns the cosine of a complex number."
+ },
+ {
+  "name": "IMCOSH",
+  "category": "Engineering",
+  "signature": "IMCOSH(inumber)",
+  "description": "Returns the hyperbolic cosine of a complex number."
+ },
+ {
+  "name": "IMCOT",
+  "category": "Engineering",
+  "signature": "IMCOT(inumber)",
+  "description": "Returns the cotangent of a complex number."
+ },
+ {
+  "name": "IMCSC",
+  "category": "Engineering",
+  "signature": "IMCSC(inumber)",
+  "description": "Returns the cosecant of a complex number."
+ },
+ {
+  "name": "IMCSCH",
+  "category": "Engineering",
+  "signature": "IMCSCH(inumber)",
+  "description": "Returns the hyperbolic cosecant of a complex number."
+ },
+ {
+  "name": "IMDIV",
+  "category": "Engineering",
+  "signature": "IMDIV(inumber1, inumber2)",
+  "description": "Returns the quotient of two complex numbers."
+ },
+ {
+  "name": "IMEXP",
+  "category": "Engineering",
+  "signature": "IMEXP(inumber)",
+  "description": "Returns the exponential of a complex number."
+ },
+ {
+  "name": "IMLN",
+  "category": "Engineering",
+  "signature": "IMLN(inumber)",
+  "description": "Returns the natural logarithm of a complex number."
+ },
+ {
+  "name": "IMLOG10",
+  "category": "Engineering",
+  "signature": "IMLOG10(inumber)",
+  "description": "Returns the base-10 logarithm of a complex number."
+ },
+ {
+  "name": "IMLOG2",
+  "category": "Engineering",
+  "signature": "IMLOG2(inumber)",
+  "description": "Returns the base-2 logarithm of a complex number."
+ },
+ {
+  "name": "IMPOWER",
+  "category": "Engineering",
+  "signature": "IMPOWER(inumber, number)",
+  "description": "Returns a complex number raised to an integer power."
+ },
+ {
+  "name": "IMPRODUCT",
+  "category": "Engineering",
+  "signature": "IMPRODUCT(inumber1, [inumber2], ...)",
+  "description": "Returns the product of complex numbers."
+ },
+ {
+  "name": "IMREAL",
+  "category": "Engineering",
+  "signature": "IMREAL(inumber)",
+  "description": "Returns the real coefficient of a complex number."
+ },
+ {
+  "name": "IMSEC",
+  "category": "Engineering",
+  "signature": "IMSEC(inumber)",
+  "description": "Returns the secant of a complex number."
+ },
+ {
+  "name": "IMSECH",
+  "category": "Engineering",
+  "signature": "IMSECH(inumber)",
+  "description": "Returns the hyperbolic secant of a complex number."
+ },
+ {
+  "name": "IMSIN",
+  "category": "Engineering",
+  "signature": "IMSIN(inumber)",
+  "description": "Returns the sine of a complex number."
+ },
+ {
+  "name": "IMSINH",
+  "category": "Engineering",
+  "signature": "IMSINH(inumber)",
+  "description": "Returns the hyperbolic sine of a complex number."
+ },
+ {
+  "name": "IMSQRT",
+  "category": "Engineering",
+  "signature": "IMSQRT(inumber)",
+  "description": "Returns the square root of a complex number."
+ },
+ {
+  "name": "IMSUB",
+  "category": "Engineering",
+  "signature": "IMSUB(inumber1, inumber2)",
+  "description": "Returns the difference of two complex numbers."
+ },
+ {
+  "name": "IMSUM",
+  "category": "Engineering",
+  "signature": "IMSUM(inumber1, [inumber2], ...)",
+  "description": "Returns the sum of complex numbers."
+ },
+ {
+  "name": "IMTAN",
+  "category": "Engineering",
+  "signature": "IMTAN(inumber)",
+  "description": "Returns the tangent of a complex number."
+ },
+ {
+  "name": "INDEX",
+  "category": "Lookup & Reference",
+  "signature": "INDEX(array, row_num, [column_num], [area_num])",
+  "description": "Returns a value or reference from within a table or range."
+ },
+ {
+  "name": "INDIRECT",
+  "category": "Lookup & Reference",
+  "signature": "INDIRECT(ref_text, [a1])",
+  "description": "Returns the reference specified by a text string."
+ },
+ {
+  "name": "INFO",
+  "category": "Information",
+  "signature": "INFO(type_text)",
+  "description": "Returns information about the current operating environment."
+ },
+ {
+  "name": "INT",
+  "category": "Math & Trig",
+  "signature": "INT(number)",
+  "description": "Rounds a number down to the nearest integer."
+ },
+ {
+  "name": "INTERCEPT",
+  "category": "Statistical",
+  "signature": "INTERCEPT(known_y's, known_x's)",
+  "description": "Returns the intercept of the linear regression line."
+ },
+ {
+  "name": "INTRATE",
+  "category": "Financial",
+  "signature": "INTRATE(settlement, maturity, investment, redemption, [basis])",
+  "description": "Returns the interest rate for a fully invested security."
+ },
+ {
+  "name": "IPMT",
+  "category": "Financial",
+  "signature": "IPMT(rate, per, nper, pv, [fv], [type])",
+  "description": "Returns the interest payment for an investment for a given period."
+ },
+ {
+  "name": "IRR",
+  "category": "Financial",
+  "signature": "IRR(values, [guess])",
+  "description": "Returns the internal rate of return for a series of cash flows."
+ },
+ {
+  "name": "ISBLANK",
+  "category": "Information",
+  "signature": "ISBLANK(value)",
+  "description": "Returns TRUE if the value is blank."
+ },
+ {
+  "name": "ISERR",
+  "category": "Information",
+  "signature": "ISERR(value)",
+  "description": "Returns TRUE if the value is any error except #N/A."
+ },
+ {
+  "name": "ISERROR",
+  "category": "Information",
+  "signature": "ISERROR(value)",
+  "description": "Returns TRUE if the value is any error."
+ },
+ {
+  "name": "ISEVEN",
+  "category": "Information",
+  "signature": "ISEVEN(number)",
+  "description": "Returns TRUE if the number is even."
+ },
+ {
+  "name": "ISFORMULA",
+  "category": "Information",
+  "signature": "ISFORMULA(reference)",
+  "description": "Returns TRUE if the reference is to a cell containing a formula."
+ },
+ {
+  "name": "ISLOGICAL",
+  "category": "Information",
+  "signature": "ISLOGICAL(value)",
+  "description": "Returns TRUE if the value is a logical value."
+ },
+ {
+  "name": "ISNA",
+  "category": "Information",
+  "signature": "ISNA(value)",
+  "description": "Returns TRUE if the value is #N/A."
+ },
+ {
+  "name": "ISNONTEXT",
+  "category": "Information",
+  "signature": "ISNONTEXT(value)",
+  "description": "Returns TRUE if the value is not text."
+ },
+ {
+  "name": "ISNUMBER",
+  "category": "Information",
+  "signature": "ISNUMBER(value)",
+  "description": "Returns TRUE if the value is a number."
+ },
+ {
+  "name": "ISO.CEILING",
+  "category": "Math & Trig",
+  "signature": "ISO.CEILING(number, [significance])",
+  "description": "Rounds a number up to the nearest integer or multiple of significance."
+ },
+ {
+  "name": "ISODD",
+  "category": "Information",
+  "signature": "ISODD(number)",
+  "description": "Returns TRUE if the number is odd."
+ },
+ {
+  "name": "ISOMITTED",
+  "category": "Logical",
+  "signature": "ISOMITTED(argument)",
+  "description": "Checks whether a LAMBDA argument was omitted."
+ },
+ {
+  "name": "ISOWEEKNUM",
+  "category": "Date & Time",
+  "signature": "ISOWEEKNUM(date)",
+  "description": "Returns the ISO week number of the year for a date."
+ },
+ {
+  "name": "ISPMT",
+  "category": "Financial",
+  "signature": "ISPMT(rate, per, nper, pv)",
+  "description": "Calculates the interest paid during a specific period of an investment."
+ },
+ {
+  "name": "ISREF",
+  "category": "Information",
+  "signature": "ISREF(value)",
+  "description": "Returns TRUE if the value is a reference."
+ },
+ {
+  "name": "ISTEXT",
+  "category": "Information",
+  "signature": "ISTEXT(value)",
+  "description": "Returns TRUE if the value is text."
+ },
+ {
+  "name": "KURT",
+  "category": "Statistical",
+  "signature": "KURT(number1, [number2], ...)",
+  "description": "Returns the kurtosis of a data set."
+ },
+ {
+  "name": "LAMBDA",
+  "category": "Logical",
+  "signature": "LAMBDA([parameter1, parameter2, ...], calculation)",
+  "description": "Creates a custom, reusable function: LAMBDA(param1, param2, calculation)."
+ },
+ {
+  "name": "LARGE",
+  "category": "Statistical",
+  "signature": "LARGE(array, k)",
+  "description": "Returns the k-th largest value in a data set."
+ },
+ {
+  "name": "LCM",
+  "category": "Math & Trig",
+  "signature": "LCM(number1, [number2], ...)",
+  "description": "Returns the least common multiple."
+ },
+ {
+  "name": "LEFT",
+  "category": "Text",
+  "signature": "LEFT(text, [num_chars])",
+  "description": "Returns the leftmost characters from a text value."
+ },
+ {
+  "name": "LEFTB",
+  "category": "Text",
+  "signature": "LEFTB(text, [num_bytes])",
+  "description": "Returns the leftmost bytes from a text value."
+ },
+ {
+  "name": "LEN",
+  "category": "Text",
+  "signature": "LEN(text)",
+  "description": "Returns the number of characters in a text string."
+ },
+ {
+  "name": "LENB",
+  "category": "Text",
+  "signature": "LENB(text)",
+  "description": "Returns the number of bytes in a text string."
+ },
+ {
+  "name": "LET",
+  "category": "Logical",
+  "signature": "LET(name1, value1, calculation_or_name2, [value2, calculation_or_name3], ...)",
+  "description": "Assigns names to calculation results, then evaluates a final calculation."
+ },
+ {
+  "name": "LINEST",
+  "category": "Statistical",
+  "signature": "LINEST(known_y's, [known_x's], [const], [stats])",
+  "description": "Returns the parameters of a linear trend."
+ },
+ {
+  "name": "LN",
+  "category": "Math & Trig",
+  "signature": "LN(number)",
+  "description": "Returns the natural logarithm of a number."
+ },
+ {
+  "name": "LOG",
+  "category": "Math & Trig",
+  "signature": "LOG(number, [base])",
+  "description": "Returns the logarithm of a number to a specified base (default 10)."
+ },
+ {
+  "name": "LOG10",
+  "category": "Math & Trig",
+  "signature": "LOG10(number)",
+  "description": "Returns the base-10 logarithm of a number."
+ },
+ {
+  "name": "LOGEST",
+  "category": "Statistical",
+  "signature": "LOGEST(known_y's, [known_x's], [const], [stats])",
+  "description": "Returns the parameters of an exponential trend."
+ },
+ {
+  "name": "LOGINV",
+  "category": "Compatibility",
+  "signature": "LOGINV(probability, mean, standard_dev)",
+  "description": "Returns the inverse of the lognormal cumulative distribution (use LOGNORM.INV)."
+ },
+ {
+  "name": "LOGNORM.DIST",
+  "category": "Statistical",
+  "signature": "LOGNORM.DIST(x, mean, standard_dev, cumulative)",
+  "description": "Returns the lognormal distribution."
+ },
+ {
+  "name": "LOGNORM.INV",
+  "category": "Statistical",
+  "signature": "LOGNORM.INV(probability, mean, standard_dev)",
+  "description": "Returns the inverse of the lognormal cumulative distribution."
+ },
+ {
+  "name": "LOGNORMDIST",
+  "category": "Compatibility",
+  "signature": "LOGNORMDIST(x, mean, standard_dev)",
+  "description": "Returns the cumulative lognormal distribution (use LOGNORM.DIST)."
+ },
+ {
+  "name": "LOOKUP",
+  "category": "Lookup & Reference",
+  "signature": "LOOKUP(lookup_value, lookup_vector, [result_vector])",
+  "description": "Looks up values in a vector or array."
+ },
+ {
+  "name": "LOWER",
+  "category": "Text",
+  "signature": "LOWER(text)",
+  "description": "Converts text to lowercase."
+ },
+ {
+  "name": "MAKEARRAY",
+  "category": "Logical",
+  "signature": "MAKEARRAY(rows, cols, lambda)",
+  "description": "Returns an array of the given size computed by a LAMBDA."
+ },
+ {
+  "name": "MAP",
+  "category": "Logical",
+  "signature": "MAP(array1, [array2, ...], lambda)",
+  "description": "Maps each value in one or more arrays to a new value using a LAMBDA."
+ },
+ {
+  "name": "MATCH",
+  "category": "Lookup & Reference",
+  "signature": "MATCH(lookup_value, lookup_array, [match_type])",
+  "description": "Returns the relative position of an item in an array."
+ },
+ {
+  "name": "MAX",
+  "category": "Statistical",
+  "signature": "MAX(number1, [number2], ...)",
+  "description": "Returns the largest value in a set of values."
+ },
+ {
+  "name": "MAXA",
+  "category": "Statistical",
+  "signature": "MAXA(value1, [value2], ...)",
+  "description": "Returns the largest value, including text and logical values."
+ },
+ {
+  "name": "MAXIFS",
+  "category": "Statistical",
+  "signature": "MAXIFS(max_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)",
+  "description": "Returns the maximum value among cells that meet criteria."
+ },
+ {
+  "name": "MDETERM",
+  "category": "Math & Trig",
+  "signature": "MDETERM(array)",
+  "description": "Returns the matrix determinant of an array."
+ },
+ {
+  "name": "MDURATION",
+  "category": "Financial",
+  "signature": "MDURATION(settlement, maturity, coupon, yld, frequency, [basis])",
+  "description": "Returns the modified Macaulay duration for a security."
+ },
+ {
+  "name": "MEDIAN",
+  "category": "Statistical",
+  "signature": "MEDIAN(number1, [number2], ...)",
+  "description": "Returns the median of the given numbers."
+ },
+ {
+  "name": "MID",
+  "category": "Text",
+  "signature": "MID(text, start_num, num_chars)",
+  "description": "Returns characters from the middle of a text string."
+ },
+ {
+  "name": "MIDB",
+  "category": "Text",
+  "signature": "MIDB(text, start_num, num_bytes)",
+  "description": "Returns bytes from the middle of a text string."
+ },
+ {
+  "name": "MIN",
+  "category": "Statistical",
+  "signature": "MIN(number1, [number2], ...)",
+  "description": "Returns the smallest value in a set of values."
+ },
+ {
+  "name": "MINA",
+  "category": "Statistical",
+  "signature": "MINA(value1, [value2], ...)",
+  "description": "Returns the smallest value, including text and logical values."
+ },
+ {
+  "name": "MINIFS",
+  "category": "Statistical",
+  "signature": "MINIFS(min_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)",
+  "description": "Returns the minimum value among cells that meet criteria."
+ },
+ {
+  "name": "MINUTE",
+  "category": "Date & Time",
+  "signature": "MINUTE(serial_number)",
+  "description": "Converts a serial number to a minute."
+ },
+ {
+  "name": "MINVERSE",
+  "category": "Math & Trig",
+  "signature": "MINVERSE(array)",
+  "description": "Returns the matrix inverse of an array."
+ },
+ {
+  "name": "MIRR",
+  "category": "Financial",
+  "signature": "MIRR(values, finance_rate, reinvest_rate)",
+  "description": "Returns the internal rate of return where positive and negative cash flows use different rates."
+ },
+ {
+  "name": "MMULT",
+  "category": "Math & Trig",
+  "signature": "MMULT(array1, array2)",
+  "description": "Returns the matrix product of two arrays."
+ },
+ {
+  "name": "MOD",
+  "category": "Math & Trig",
+  "signature": "MOD(number, divisor)",
+  "description": "Returns the remainder after a number is divided by a divisor."
+ },
+ {
+  "name": "MODE",
+  "category": "Compatibility",
+  "signature": "MODE(number1, [number2], ...)",
+  "description": "Returns the most common value in a data set (use MODE.SNGL)."
+ },
+ {
+  "name": "MODE.MULT",
+  "category": "Statistical",
+  "signature": "MODE.MULT(number1, [number2], ...)",
+  "description": "Returns a vertical array of the most frequently occurring values."
+ },
+ {
+  "name": "MODE.SNGL",
+  "category": "Statistical",
+  "signature": "MODE.SNGL(number1, [number2], ...)",
+  "description": "Returns the most common value in a data set."
+ },
+ {
+  "name": "MONTH",
+  "category": "Date & Time",
+  "signature": "MONTH(serial_number)",
+  "description": "Converts a serial number to a month."
+ },
+ {
+  "name": "MROUND",
+  "category": "Math & Trig",
+  "signature": "MROUND(number, multiple)",
+  "description": "Returns a number rounded to the desired multiple."
+ },
+ {
+  "name": "MULTINOMIAL",
+  "category": "Math & Trig",
+  "signature": "MULTINOMIAL(number1, [number2], ...)",
+  "description": "Returns the multinomial of a set of numbers."
+ },
+ {
+  "name": "MUNIT",
+  "category": "Math & Trig",
+  "signature": "MUNIT(dimension)",
+  "description": "Returns the unit matrix for the specified dimension."
+ },
+ {
+  "name": "N",
+  "category": "Information",
+  "signature": "N(value)",
+  "description": "Returns a value converted to a number."
+ },
+ {
+  "name": "NA",
+  "category": "Information",
+  "signature": "NA()",
+  "description": "Returns the error value #N/A."
+ },
+ {
+  "name": "NEGBINOM.DIST",
+  "category": "Statistical",
+  "signature": "NEGBINOM.DIST(number_f, number_s, probability_s, cumulative)",
+  "description": "Returns the negative binomial distribution."
+ },
+ {
+  "name": "NEGBINOMDIST",
+  "category": "Compatibility",
+  "signature": "NEGBINOMDIST(number_f, number_s, probability_s)",
+  "description": "Returns the negative binomial distribution (use NEGBINOM.DIST)."
+ },
+ {
+  "name": "NETWORKDAYS",
+  "category": "Date & Time",
+  "signature": "NETWORKDAYS(start_date, end_date, [holidays])",
+  "description": "Returns the number of whole working days between two dates."
+ },
+ {
+  "name": "NETWORKDAYS.INTL",
+  "category": "Date & Time",
+  "signature": "NETWORKDAYS.INTL(start_date, end_date, [weekend], [holidays])",
+  "description": "Returns working days between two dates using custom weekend parameters."
+ },
+ {
+  "name": "NOMINAL",
+  "category": "Financial",
+  "signature": "NOMINAL(effect_rate, npery)",
+  "description": "Returns the annual nominal interest rate."
+ },
+ {
+  "name": "NORM.DIST",
+  "category": "Statistical",
+  "signature": "NORM.DIST(x, mean, standard_dev, cumulative)",
+  "description": "Returns the normal distribution."
+ },
+ {
+  "name": "NORM.INV",
+  "category": "Statistical",
+  "signature": "NORM.INV(probability, mean, standard_dev)",
+  "description": "Returns the inverse of the normal cumulative distribution."
+ },
+ {
+  "name": "NORM.S.DIST",
+  "category": "Statistical",
+  "signature": "NORM.S.DIST(z, cumulative)",
+  "description": "Returns the standard normal distribution."
+ },
+ {
+  "name": "NORM.S.INV",
+  "category": "Statistical",
+  "signature": "NORM.S.INV(probability)",
+  "description": "Returns the inverse of the standard normal cumulative distribution."
+ },
+ {
+  "name": "NORMDIST",
+  "category": "Compatibility",
+  "signature": "NORMDIST(x, mean, standard_dev, cumulative)",
+  "description": "Returns the normal cumulative distribution (use NORM.DIST)."
+ },
+ {
+  "name": "NORMINV",
+  "category": "Compatibility",
+  "signature": "NORMINV(probability, mean, standard_dev)",
+  "description": "Returns the inverse of the normal cumulative distribution (use NORM.INV)."
+ },
+ {
+  "name": "NORMSDIST",
+  "category": "Compatibility",
+  "signature": "NORMSDIST(z)",
+  "description": "Returns the standard normal cumulative distribution (use NORM.S.DIST)."
+ },
+ {
+  "name": "NORMSINV",
+  "category": "Compatibility",
+  "signature": "NORMSINV(probability)",
+  "description": "Returns the inverse of the standard normal cumulative distribution (use NORM.S.INV)."
+ },
+ {
+  "name": "NOT",
+  "category": "Logical",
+  "signature": "NOT(logical)",
+  "description": "Reverses the logic of its argument."
+ },
+ {
+  "name": "NOW",
+  "category": "Date & Time",
+  "signature": "NOW()",
+  "description": "Returns the current date and time."
+ },
+ {
+  "name": "NPER",
+  "category": "Financial",
+  "signature": "NPER(rate, pmt, pv, [fv], [type])",
+  "description": "Returns the number of periods for an investment."
+ },
+ {
+  "name": "NPV",
+  "category": "Financial",
+  "signature": "NPV(rate, value1, [value2], ...)",
+  "description": "Returns the net present value of an investment from a discount rate and future cash flows."
+ },
+ {
+  "name": "NUMBERVALUE",
+  "category": "Text",
+  "signature": "NUMBERVALUE(text, [decimal_separator], [group_separator])",
+  "description": "Converts text to a number in a locale-independent way."
+ },
+ {
+  "name": "OCT2BIN",
+  "category": "Engineering",
+  "signature": "OCT2BIN(number, [places])",
+  "description": "Converts an octal number to binary."
+ },
+ {
+  "name": "OCT2DEC",
+  "category": "Engineering",
+  "signature": "OCT2DEC(number)",
+  "description": "Converts an octal number to decimal."
+ },
+ {
+  "name": "OCT2HEX",
+  "category": "Engineering",
+  "signature": "OCT2HEX(number, [places])",
+  "description": "Converts an octal number to hexadecimal."
+ },
+ {
+  "name": "ODD",
+  "category": "Math & Trig",
+  "signature": "ODD(number)",
+  "description": "Rounds a number up to the nearest odd integer."
+ },
+ {
+  "name": "ODDFPRICE",
+  "category": "Financial",
+  "signature": "ODDFPRICE(settlement, maturity, issue, first_coupon, rate, yld, redemption, frequency, [basis])",
+  "description": "Returns the price per $100 face value of a security with an odd first period."
+ },
+ {
+  "name": "ODDFYIELD",
+  "category": "Financial",
+  "signature": "ODDFYIELD(settlement, maturity, issue, first_coupon, rate, pr, redemption, frequency, [basis])",
+  "description": "Returns the yield of a security with an odd first period."
+ },
+ {
+  "name": "ODDLPRICE",
+  "category": "Financial",
+  "signature": "ODDLPRICE(settlement, maturity, last_interest, rate, yld, redemption, frequency, [basis])",
+  "description": "Returns the price per $100 face value of a security with an odd last period."
+ },
+ {
+  "name": "ODDLYIELD",
+  "category": "Financial",
+  "signature": "ODDLYIELD(settlement, maturity, last_interest, rate, pr, redemption, frequency, [basis])",
+  "description": "Returns the yield of a security with an odd last period."
+ },
+ {
+  "name": "OFFSET",
+  "category": "Lookup & Reference",
+  "signature": "OFFSET(reference, rows, cols, [height], [width])",
+  "description": "Returns a reference offset from a given reference."
+ },
+ {
+  "name": "OR",
+  "category": "Logical",
+  "signature": "OR(logical1, [logical2], ...)",
+  "description": "Returns TRUE if any argument is TRUE."
+ },
+ {
+  "name": "PDURATION",
+  "category": "Financial",
+  "signature": "PDURATION(rate, pv, fv)",
+  "description": "Returns the number of periods required for an investment to reach a value."
+ },
+ {
+  "name": "PEARSON",
+  "category": "Statistical",
+  "signature": "PEARSON(array1, array2)",
+  "description": "Returns the Pearson product-moment correlation coefficient."
+ },
+ {
+  "name": "PERCENTILE",
+  "category": "Compatibility",
+  "signature": "PERCENTILE(array, k)",
+  "description": "Returns the k-th percentile (use PERCENTILE.INC)."
+ },
+ {
+  "name": "PERCENTILE.EXC",
+  "category": "Statistical",
+  "signature": "PERCENTILE.EXC(array, k)",
+  "description": "Returns the k-th percentile, exclusive (0 < k < 1)."
+ },
+ {
+  "name": "PERCENTILE.INC",
+  "category": "Statistical",
+  "signature": "PERCENTILE.INC(array, k)",
+  "description": "Returns the k-th percentile, inclusive."
+ },
+ {
+  "name": "PERCENTOF",
+  "category": "Lookup & Reference",
+  "signature": "PERCENTOF(subset, total)",
+  "description": "Returns the share a subset represents of a total."
+ },
+ {
+  "name": "PERCENTRANK",
+  "category": "Compatibility",
+  "signature": "PERCENTRANK(array, x, [significance])",
+  "description": "Returns the percentage rank of a value (use PERCENTRANK.INC)."
+ },
+ {
+  "name": "PERCENTRANK.EXC",
+  "category": "Statistical",
+  "signature": "PERCENTRANK.EXC(array, x, [significance])",
+  "description": "Returns the rank of a value as an exclusive percentage."
+ },
+ {
+  "name": "PERCENTRANK.INC",
+  "category": "Statistical",
+  "signature": "PERCENTRANK.INC(array, x, [significance])",
+  "description": "Returns the rank of a value as an inclusive percentage."
+ },
+ {
+  "name": "PERMUT",
+  "category": "Statistical",
+  "signature": "PERMUT(number, number_chosen)",
+  "description": "Returns the number of permutations."
+ },
+ {
+  "name": "PERMUTATIONA",
+  "category": "Statistical",
+  "signature": "PERMUTATIONA(number, number_chosen)",
+  "description": "Returns the number of permutations with repetitions."
+ },
+ {
+  "name": "PHI",
+  "category": "Statistical",
+  "signature": "PHI(x)",
+  "description": "Returns the density of the standard normal distribution."
+ },
+ {
+  "name": "PHONETIC",
+  "category": "Text",
+  "signature": "PHONETIC(reference)",
+  "description": "Extracts the phonetic (furigana) characters from a text string."
+ },
+ {
+  "name": "PI",
+  "category": "Math & Trig",
+  "signature": "PI()",
+  "description": "Returns the value of pi, 3.14159265358979."
+ },
+ {
+  "name": "PIVOTBY",
+  "category": "Lookup & Reference",
+  "signature": "PIVOTBY(row_fields, col_fields, values, function, [field_headers], [row_total_depth], [row_sort_order], [col_total_depth], [col_sort_order], [filter_array], [relative_to])",
+  "description": "Groups, aggregates, sorts and filters data by row and column fields."
+ },
+ {
+  "name": "PMT",
+  "category": "Financial",
+  "signature": "PMT(rate, nper, pv, [fv], [type])",
+  "description": "Returns the periodic payment for an annuity."
+ },
+ {
+  "name": "POISSON",
+  "category": "Compatibility",
+  "signature": "POISSON(x, mean, cumulative)",
+  "description": "Returns the Poisson distribution (use POISSON.DIST)."
+ },
+ {
+  "name": "POISSON.DIST",
+  "category": "Statistical",
+  "signature": "POISSON.DIST(x, mean, cumulative)",
+  "description": "Returns the Poisson distribution."
+ },
+ {
+  "name": "POWER",
+  "category": "Math & Trig",
+  "signature": "POWER(number, power)",
+  "description": "Returns the result of a number raised to a power."
+ },
+ {
+  "name": "PPMT",
+  "category": "Financial",
+  "signature": "PPMT(rate, per, nper, pv, [fv], [type])",
+  "description": "Returns the principal payment for an investment for a given period."
+ },
+ {
+  "name": "PRICE",
+  "category": "Financial",
+  "signature": "PRICE(settlement, maturity, rate, yld, redemption, frequency, [basis])",
+  "description": "Returns the price per $100 face value of a security that pays periodic interest."
+ },
+ {
+  "name": "PRICEDISC",
+  "category": "Financial",
+  "signature": "PRICEDISC(settlement, maturity, discount, redemption, [basis])",
+  "description": "Returns the price per $100 face value of a discounted security."
+ },
+ {
+  "name": "PRICEMAT",
+  "category": "Financial",
+  "signature": "PRICEMAT(settlement, maturity, issue, rate, yld, [basis])",
+  "description": "Returns the price per $100 face value of a security that pays interest at maturity."
+ },
+ {
+  "name": "PROB",
+  "category": "Statistical",
+  "signature": "PROB(x_range, prob_range, lower_limit, [upper_limit])",
+  "description": "Returns the probability that values are between two limits."
+ },
+ {
+  "name": "PRODUCT",
+  "category": "Math & Trig",
+  "signature": "PRODUCT(number1, [number2], ...)",
+  "description": "Multiplies all the numbers given as arguments."
+ },
+ {
+  "name": "PROPER",
+  "category": "Text",
+  "signature": "PROPER(text)",
+  "description": "Capitalizes the first letter in each word of a text value."
+ },
+ {
+  "name": "PV",
+  "category": "Financial",
+  "signature": "PV(rate, nper, pmt, [fv], [type])",
+  "description": "Returns the present value of an investment."
+ },
+ {
+  "name": "QUARTILE",
+  "category": "Compatibility",
+  "signature": "QUARTILE(array, quart)",
+  "description": "Returns the quartile of a data set (use QUARTILE.INC)."
+ },
+ {
+  "name": "QUARTILE.EXC",
+  "category": "Statistical",
+  "signature": "QUARTILE.EXC(array, quart)",
+  "description": "Returns the quartile, exclusive."
+ },
+ {
+  "name": "QUARTILE.INC",
+  "category": "Statistical",
+  "signature": "QUARTILE.INC(array, quart)",
+  "description": "Returns the quartile, inclusive."
+ },
+ {
+  "name": "QUOTIENT",
+  "category": "Math & Trig",
+  "signature": "QUOTIENT(numerator, denominator)",
+  "description": "Returns the integer portion of a division."
+ },
+ {
+  "name": "RADIANS",
+  "category": "Math & Trig",
+  "signature": "RADIANS(angle)",
+  "description": "Converts degrees to radians."
+ },
+ {
+  "name": "RAND",
+  "category": "Math & Trig",
+  "signature": "RAND()",
+  "description": "Returns a random number greater than or equal to 0 and less than 1."
+ },
+ {
+  "name": "RANDARRAY",
+  "category": "Math & Trig",
+  "signature": "RANDARRAY([rows], [columns], [min], [max], [integer])",
+  "description": "Returns an array of random numbers."
+ },
+ {
+  "name": "RANDBETWEEN",
+  "category": "Math & Trig",
+  "signature": "RANDBETWEEN(bottom, top)",
+  "description": "Returns a random integer between the numbers you specify."
+ },
+ {
+  "name": "RANK",
+  "category": "Compatibility",
+  "signature": "RANK(number, ref, [order])",
+  "description": "Returns the rank of a number in a list (use RANK.EQ)."
+ },
+ {
+  "name": "RANK.AVG",
+  "category": "Statistical",
+  "signature": "RANK.AVG(number, ref, [order])",
+  "description": "Returns the rank of a number in a list; ties get the average rank."
+ },
+ {
+  "name": "RANK.EQ",
+  "category": "Statistical",
+  "signature": "RANK.EQ(number, ref, [order])",
+  "description": "Returns the rank of a number in a list; ties get the top rank."
+ },
+ {
+  "name": "RATE",
+  "category": "Financial",
+  "signature": "RATE(nper, pmt, pv, [fv], [type], [guess])",
+  "description": "Returns the interest rate per period of an annuity."
+ },
+ {
+  "name": "RECEIVED",
+  "category": "Financial",
+  "signature": "RECEIVED(settlement, maturity, investment, discount, [basis])",
+  "description": "Returns the amount received at maturity for a fully invested security."
+ },
+ {
+  "name": "REDUCE",
+  "category": "Logical",
+  "signature": "REDUCE([initial_value], array, lambda)",
+  "description": "Reduces an array to an accumulated value by applying a LAMBDA to each element."
+ },
+ {
+  "name": "REGEXEXTRACT",
+  "category": "Text",
+  "signature": "REGEXEXTRACT(text, pattern, [return_mode], [case_sensitivity])",
+  "description": "Extracts text that matches a regular expression."
+ },
+ {
+  "name": "REGEXREPLACE",
+  "category": "Text",
+  "signature": "REGEXREPLACE(text, pattern, replacement, [occurrence], [case_sensitivity])",
+  "description": "Replaces text that matches a regular expression."
+ },
+ {
+  "name": "REGEXTEST",
+  "category": "Text",
+  "signature": "REGEXTEST(text, pattern, [case_sensitivity])",
+  "description": "Checks whether text matches a regular expression."
+ },
+ {
+  "name": "REPLACE",
+  "category": "Text",
+  "signature": "REPLACE(old_text, start_num, num_chars, new_text)",
+  "description": "Replaces characters within text."
+ },
+ {
+  "name": "REPLACEB",
+  "category": "Text",
+  "signature": "REPLACEB(old_text, start_num, num_bytes, new_text)",
+  "description": "Replaces bytes within text."
+ },
+ {
+  "name": "REPT",
+  "category": "Text",
+  "signature": "REPT(text, number_times)",
+  "description": "Repeats text a given number of times."
+ },
+ {
+  "name": "RIGHT",
+  "category": "Text",
+  "signature": "RIGHT(text, [num_chars])",
+  "description": "Returns the rightmost characters from a text value."
+ },
+ {
+  "name": "RIGHTB",
+  "category": "Text",
+  "signature": "RIGHTB(text, [num_bytes])",
+  "description": "Returns the rightmost bytes from a text value."
+ },
+ {
+  "name": "ROMAN",
+  "category": "Math & Trig",
+  "signature": "ROMAN(number, [form])",
+  "description": "Converts an Arabic numeral to Roman, as text."
+ },
+ {
+  "name": "ROUND",
+  "category": "Math & Trig",
+  "signature": "ROUND(number, num_digits)",
+  "description": "Rounds a number to a specified number of digits."
+ },
+ {
+  "name": "ROUNDDOWN",
+  "category": "Math & Trig",
+  "signature": "ROUNDDOWN(number, num_digits)",
+  "description": "Rounds a number down, toward zero."
+ },
+ {
+  "name": "ROUNDUP",
+  "category": "Math & Trig",
+  "signature": "ROUNDUP(number, num_digits)",
+  "description": "Rounds a number up, away from zero."
+ },
+ {
+  "name": "ROW",
+  "category": "Lookup & Reference",
+  "signature": "ROW([reference])",
+  "description": "Returns the row number of a reference."
+ },
+ {
+  "name": "ROWS",
+  "category": "Lookup & Reference",
+  "signature": "ROWS(array)",
+  "description": "Returns the number of rows in a reference or array."
+ },
+ {
+  "name": "RRI",
+  "category": "Financial",
+  "signature": "RRI(nper, pv, fv)",
+  "description": "Returns an equivalent interest rate for the growth of an investment."
+ },
+ {
+  "name": "RSQ",
+  "category": "Statistical",
+  "signature": "RSQ(known_y's, known_x's)",
+  "description": "Returns the square of the Pearson correlation coefficient."
+ },
+ {
+  "name": "RTD",
+  "category": "Lookup & Reference",
+  "signature": "RTD(progID, server, topic1, [topic2], ...)",
+  "description": "Retrieves real-time data from a COM automation server."
+ },
+ {
+  "name": "SCAN",
+  "category": "Logical",
+  "signature": "SCAN([initial_value], array, lambda)",
+  "description": "Scans an array applying a LAMBDA and returns each intermediate value."
+ },
+ {
+  "name": "SEARCH",
+  "category": "Text",
+  "signature": "SEARCH(find_text, within_text, [start_num])",
+  "description": "Finds one text value within another (not case-sensitive, supports wildcards)."
+ },
+ {
+  "name": "SEARCHB",
+  "category": "Text",
+  "signature": "SEARCHB(find_text, within_text, [start_num])",
+  "description": "Finds one text value within another by bytes (not case-sensitive)."
+ },
+ {
+  "name": "SEC",
+  "category": "Math & Trig",
+  "signature": "SEC(number)",
+  "description": "Returns the secant of an angle in radians."
+ },
+ {
+  "name": "SECH",
+  "category": "Math & Trig",
+  "signature": "SECH(number)",
+  "description": "Returns the hyperbolic secant of an angle."
+ },
+ {
+  "name": "SECOND",
+  "category": "Date & Time",
+  "signature": "SECOND(serial_number)",
+  "description": "Converts a serial number to a second."
+ },
+ {
+  "name": "SEQUENCE",
+  "category": "Math & Trig",
+  "signature": "SEQUENCE(rows, [columns], [start], [step])",
+  "description": "Returns an array of sequential numbers."
+ },
+ {
+  "name": "SERIESSUM",
+  "category": "Math & Trig",
+  "signature": "SERIESSUM(x, n, m, coefficients)",
+  "description": "Returns the sum of a power series based on a formula."
+ },
+ {
+  "name": "SHEET",
+  "category": "Information",
+  "signature": "SHEET([value])",
+  "description": "Returns the sheet number of the referenced sheet."
+ },
+ {
+  "name": "SHEETS",
+  "category": "Information",
+  "signature": "SHEETS([reference])",
+  "description": "Returns the number of sheets in a reference."
+ },
+ {
+  "name": "SIGN",
+  "category": "Math & Trig",
+  "signature": "SIGN(number)",
+  "description": "Returns the sign of a number: 1, 0 or -1."
+ },
+ {
+  "name": "SIN",
+  "category": "Math & Trig",
+  "signature": "SIN(number)",
+  "description": "Returns the sine of an angle in radians."
+ },
+ {
+  "name": "SINH",
+  "category": "Math & Trig",
+  "signature": "SINH(number)",
+  "description": "Returns the hyperbolic sine of a number."
+ },
+ {
+  "name": "SKEW",
+  "category": "Statistical",
+  "signature": "SKEW(number1, [number2], ...)",
+  "description": "Returns the skewness of a distribution."
+ },
+ {
+  "name": "SKEW.P",
+  "category": "Statistical",
+  "signature": "SKEW.P(number1, [number2], ...)",
+  "description": "Returns the skewness based on a population."
+ },
+ {
+  "name": "SLN",
+  "category": "Financial",
+  "signature": "SLN(cost, salvage, life)",
+  "description": "Returns straight-line depreciation for one period."
+ },
+ {
+  "name": "SLOPE",
+  "category": "Statistical",
+  "signature": "SLOPE(known_y's, known_x's)",
+  "description": "Returns the slope of the linear regression line."
+ },
+ {
+  "name": "SMALL",
+  "category": "Statistical",
+  "signature": "SMALL(array, k)",
+  "description": "Returns the k-th smallest value in a data set."
+ },
+ {
+  "name": "SORT",
+  "category": "Lookup & Reference",
+  "signature": "SORT(array, [sort_index], [sort_order], [by_col])",
+  "description": "Sorts the contents of a range or array."
+ },
+ {
+  "name": "SORTBY",
+  "category": "Lookup & Reference",
+  "signature": "SORTBY(array, by_array1, [sort_order1], [by_array2, sort_order2], ...)",
+  "description": "Sorts a range or array based on the values in a corresponding range or array."
+ },
+ {
+  "name": "SQRT",
+  "category": "Math & Trig",
+  "signature": "SQRT(number)",
+  "description": "Returns a positive square root."
+ },
+ {
+  "name": "SQRTPI",
+  "category": "Math & Trig",
+  "signature": "SQRTPI(number)",
+  "description": "Returns the square root of (number * pi)."
+ },
+ {
+  "name": "STANDARDIZE",
+  "category": "Statistical",
+  "signature": "STANDARDIZE(x, mean, standard_dev)",
+  "description": "Returns a normalized value."
+ },
+ {
+  "name": "STDEV",
+  "category": "Compatibility",
+  "signature": "STDEV(number1, [number2], ...)",
+  "description": "Estimates standard deviation based on a sample (use STDEV.S)."
+ },
+ {
+  "name": "STDEV.P",
+  "category": "Statistical",
+  "signature": "STDEV.P(number1, [number2], ...)",
+  "description": "Calculates standard deviation based on the entire population."
+ },
+ {
+  "name": "STDEV.S",
+  "category": "Statistical",
+  "signature": "STDEV.S(number1, [number2], ...)",
+  "description": "Estimates standard deviation based on a sample."
+ },
+ {
+  "name": "STDEVA",
+  "category": "Statistical",
+  "signature": "STDEVA(value1, [value2], ...)",
+  "description": "Estimates standard deviation of a sample, including text and logicals."
+ },
+ {
+  "name": "STDEVP",
+  "category": "Compatibility",
+  "signature": "STDEVP(number1, [number2], ...)",
+  "description": "Calculates standard deviation of a population (use STDEV.P)."
+ },
+ {
+  "name": "STDEVPA",
+  "category": "Statistical",
+  "signature": "STDEVPA(value1, [value2], ...)",
+  "description": "Calculates standard deviation of a population, including text and logicals."
+ },
+ {
+  "name": "STEYX",
+  "category": "Statistical",
+  "signature": "STEYX(known_y's, known_x's)",
+  "description": "Returns the standard error of the predicted y for each x in the regression."
+ },
+ {
+  "name": "STOCKHISTORY",
+  "category": "Information",
+  "signature": "STOCKHISTORY(stock, start_date, [end_date], [interval], [headers], [property0], ...)",
+  "description": "Retrieves historical data about a financial instrument."
+ },
+ {
+  "name": "SUBSTITUTE",
+  "category": "Text",
+  "signature": "SUBSTITUTE(text, old_text, new_text, [instance_num])",
+  "description": "Substitutes new text for old text in a text string."
+ },
+ {
+  "name": "SUBTOTAL",
+  "category": "Math & Trig",
+  "signature": "SUBTOTAL(function_num, ref1, [ref2], ...)",
+  "description": "Returns a subtotal in a list or database."
+ },
+ {
+  "name": "SUM",
+  "category": "Math & Trig",
+  "signature": "SUM(number1, [number2], ...)",
+  "description": "Adds all the numbers in a range of cells."
+ },
+ {
+  "name": "SUMIF",
+  "category": "Math & Trig",
+  "signature": "SUMIF(range, criteria, [sum_range])",
+  "description": "Adds the cells specified by a given criterion."
+ },
+ {
+  "name": "SUMIFS",
+  "category": "Math & Trig",
+  "signature": "SUMIFS(sum_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)",
+  "description": "Adds the cells that meet multiple criteria."
+ },
+ {
+  "name": "SUMPRODUCT",
+  "category": "Math & Trig",
+  "signature": "SUMPRODUCT(array1, [array2], ...)",
+  "description": "Returns the sum of the products of corresponding array components."
+ },
+ {
+  "name": "SUMSQ",
+  "category": "Math & Trig",
+  "signature": "SUMSQ(number1, [number2], ...)",
+  "description": "Returns the sum of the squares of the arguments."
+ },
+ {
+  "name": "SUMX2MY2",
+  "category": "Math & Trig",
+  "signature": "SUMX2MY2(array_x, array_y)",
+  "description": "Returns the sum of the difference of squares of corresponding values in two arrays."
+ },
+ {
+  "name": "SUMX2PY2",
+  "category": "Math & Trig",
+  "signature": "SUMX2PY2(array_x, array_y)",
+  "description": "Returns the sum of the sum of squares of corresponding values in two arrays."
+ },
+ {
+  "name": "SUMXMY2",
+  "category": "Math & Trig",
+  "signature": "SUMXMY2(array_x, array_y)",
+  "description": "Returns the sum of squares of differences of corresponding values in two arrays."
+ },
+ {
+  "name": "SWITCH",
+  "category": "Logical",
+  "signature": "SWITCH(expression, value1, result1, [value2, result2], ...)",
+  "description": "Evaluates an expression against values and returns the matching result; a final unpaired argument is the default."
+ },
+ {
+  "name": "SYD",
+  "category": "Financial",
+  "signature": "SYD(cost, salvage, life, per)",
+  "description": "Returns sum-of-years' digits depreciation for a period."
+ },
+ {
+  "name": "T",
+  "category": "Text",
+  "signature": "T(value)",
+  "description": "Converts its arguments to text."
+ },
+ {
+  "name": "T.DIST",
+  "category": "Statistical",
+  "signature": "T.DIST(x, deg_freedom, cumulative)",
+  "description": "Returns the left-tailed Student t-distribution."
+ },
+ {
+  "name": "T.DIST.2T",
+  "category": "Statistical",
+  "signature": "T.DIST.2T(x, deg_freedom)",
+  "description": "Returns the two-tailed Student t-distribution."
+ },
+ {
+  "name": "T.DIST.RT",
+  "category": "Statistical",
+  "signature": "T.DIST.RT(x, deg_freedom)",
+  "description": "Returns the right-tailed Student t-distribution."
+ },
+ {
+  "name": "T.INV",
+  "category": "Statistical",
+  "signature": "T.INV(probability, deg_freedom)",
+  "description": "Returns the left-tailed inverse of the Student t-distribution."
+ },
+ {
+  "name": "T.INV.2T",
+  "category": "Statistical",
+  "signature": "T.INV.2T(probability, deg_freedom)",
+  "description": "Returns the two-tailed inverse of the Student t-distribution."
+ },
+ {
+  "name": "T.TEST",
+  "category": "Statistical",
+  "signature": "T.TEST(array1, array2, tails, type)",
+  "description": "Returns the probability associated with a Student t-test."
+ },
+ {
+  "name": "TAKE",
+  "category": "Lookup & Reference",
+  "signature": "TAKE(array, rows, [columns])",
+  "description": "Returns a number of rows or columns from the start or end of an array."
+ },
+ {
+  "name": "TAN",
+  "category": "Math & Trig",
+  "signature": "TAN(number)",
+  "description": "Returns the tangent of an angle in radians."
+ },
+ {
+  "name": "TANH",
+  "category": "Math & Trig",
+  "signature": "TANH(number)",
+  "description": "Returns the hyperbolic tangent of a number."
+ },
+ {
+  "name": "TBILLEQ",
+  "category": "Financial",
+  "signature": "TBILLEQ(settlement, maturity, discount)",
+  "description": "Returns the bond-equivalent yield for a Treasury bill."
+ },
+ {
+  "name": "TBILLPRICE",
+  "category": "Financial",
+  "signature": "TBILLPRICE(settlement, maturity, discount)",
+  "description": "Returns the price per $100 face value for a Treasury bill."
+ },
+ {
+  "name": "TBILLYIELD",
+  "category": "Financial",
+  "signature": "TBILLYIELD(settlement, maturity, pr)",
+  "description": "Returns the yield for a Treasury bill."
+ },
+ {
+  "name": "TDIST",
+  "category": "Compatibility",
+  "signature": "TDIST(x, deg_freedom, tails)",
+  "description": "Returns the Student t-distribution (use T.DIST.2T or T.DIST.RT)."
+ },
+ {
+  "name": "TEXT",
+  "category": "Text",
+  "signature": "TEXT(value, format_text)",
+  "description": "Formats a number and converts it to text."
+ },
+ {
+  "name": "TEXTAFTER",
+  "category": "Text",
+  "signature": "TEXTAFTER(text, delimiter, [instance_num], [match_mode], [match_end], [if_not_found])",
+  "description": "Returns text that occurs after a given character or string."
+ },
+ {
+  "name": "TEXTBEFORE",
+  "category": "Text",
+  "signature": "TEXTBEFORE(text, delimiter, [instance_num], [match_mode], [match_end], [if_not_found])",
+  "description": "Returns text that occurs before a given character or string."
+ },
+ {
+  "name": "TEXTJOIN",
+  "category": "Text",
+  "signature": "TEXTJOIN(delimiter, ignore_empty, text1, [text2], ...)",
+  "description": "Combines text from multiple ranges using a delimiter."
+ },
+ {
+  "name": "TEXTSPLIT",
+  "category": "Text",
+  "signature": "TEXTSPLIT(text, col_delimiter, [row_delimiter], [ignore_empty], [match_mode], [pad_with])",
+  "description": "Splits text into rows or columns using delimiters."
+ },
+ {
+  "name": "TIME",
+  "category": "Date & Time",
+  "signature": "TIME(hour, minute, second)",
+  "description": "Returns the serial number of a particular time."
+ },
+ {
+  "name": "TIMEVALUE",
+  "category": "Date & Time",
+  "signature": "TIMEVALUE(time_text)",
+  "description": "Converts a time in text form to a serial number."
+ },
+ {
+  "name": "TINV",
+  "category": "Compatibility",
+  "signature": "TINV(probability, deg_freedom)",
+  "description": "Returns the two-tailed inverse of the Student t-distribution (use T.INV.2T)."
+ },
+ {
+  "name": "TOCOL",
+  "category": "Lookup & Reference",
+  "signature": "TOCOL(array, [ignore], [scan_by_column])",
+  "description": "Returns the array as a single column."
+ },
+ {
+  "name": "TODAY",
+  "category": "Date & Time",
+  "signature": "TODAY()",
+  "description": "Returns the current date."
+ },
+ {
+  "name": "TOROW",
+  "category": "Lookup & Reference",
+  "signature": "TOROW(array, [ignore], [scan_by_column])",
+  "description": "Returns the array as a single row."
+ },
+ {
+  "name": "TRANSPOSE",
+  "category": "Lookup & Reference",
+  "signature": "TRANSPOSE(array)",
+  "description": "Returns the transpose of an array."
+ },
+ {
+  "name": "TREND",
+  "category": "Statistical",
+  "signature": "TREND(known_y's, [known_x's], [new_x's], [const])",
+  "description": "Returns values along a linear trend."
+ },
+ {
+  "name": "TRIM",
+  "category": "Text",
+  "signature": "TRIM(text)",
+  "description": "Removes extra spaces from text, leaving single spaces between words."
+ },
+ {
+  "name": "TRIMMEAN",
+  "category": "Statistical",
+  "signature": "TRIMMEAN(array, percent)",
+  "description": "Returns the mean of the interior of a data set."
+ },
+ {
+  "name": "TRIMRANGE",
+  "category": "Lookup & Reference",
+  "signature": "TRIMRANGE(range, [trim_rows], [trim_cols])",
+  "description": "Trims blank rows and columns from the edges of a range."
+ },
+ {
+  "name": "TRUE",
+  "category": "Logical",
+  "signature": "TRUE()",
+  "description": "Returns the logical value TRUE."
+ },
+ {
+  "name": "TRUNC",
+  "category": "Math & Trig",
+  "signature": "TRUNC(number, [num_digits])",
+  "description": "Truncates a number to an integer (or to the given digits)."
+ },
+ {
+  "name": "TTEST",
+  "category": "Compatibility",
+  "signature": "TTEST(array1, array2, tails, type)",
+  "description": "Returns the probability associated with a Student t-test (use T.TEST)."
+ },
+ {
+  "name": "TYPE",
+  "category": "Information",
+  "signature": "TYPE(value)",
+  "description": "Returns a number indicating the data type of a value."
+ },
+ {
+  "name": "UNICHAR",
+  "category": "Text",
+  "signature": "UNICHAR(number)",
+  "description": "Returns the Unicode character for a number."
+ },
+ {
+  "name": "UNICODE",
+  "category": "Text",
+  "signature": "UNICODE(text)",
+  "description": "Returns the number (code point) for the first character of the text."
+ },
+ {
+  "name": "UNIQUE",
+  "category": "Lookup & Reference",
+  "signature": "UNIQUE(array, [by_col], [exactly_once])",
+  "description": "Returns the unique values from a range or array."
+ },
+ {
+  "name": "UPPER",
+  "category": "Text",
+  "signature": "UPPER(text)",
+  "description": "Converts text to uppercase."
+ },
+ {
+  "name": "VALUE",
+  "category": "Text",
+  "signature": "VALUE(text)",
+  "description": "Converts a text argument to a number."
+ },
+ {
+  "name": "VALUETOTEXT",
+  "category": "Text",
+  "signature": "VALUETOTEXT(value, [format])",
+  "description": "Returns text from any specified value."
+ },
+ {
+  "name": "VAR",
+  "category": "Compatibility",
+  "signature": "VAR(number1, [number2], ...)",
+  "description": "Estimates variance based on a sample (use VAR.S)."
+ },
+ {
+  "name": "VAR.P",
+  "category": "Statistical",
+  "signature": "VAR.P(number1, [number2], ...)",
+  "description": "Calculates variance based on the entire population."
+ },
+ {
+  "name": "VAR.S",
+  "category": "Statistical",
+  "signature": "VAR.S(number1, [number2], ...)",
+  "description": "Estimates variance based on a sample."
+ },
+ {
+  "name": "VARA",
+  "category": "Statistical",
+  "signature": "VARA(value1, [value2], ...)",
+  "description": "Estimates variance of a sample, including text and logicals."
+ },
+ {
+  "name": "VARP",
+  "category": "Compatibility",
+  "signature": "VARP(number1, [number2], ...)",
+  "description": "Calculates variance of a population (use VAR.P)."
+ },
+ {
+  "name": "VARPA",
+  "category": "Statistical",
+  "signature": "VARPA(value1, [value2], ...)",
+  "description": "Calculates variance of a population, including text and logicals."
+ },
+ {
+  "name": "VDB",
+  "category": "Financial",
+  "signature": "VDB(cost, salvage, life, start_period, end_period, [factor], [no_switch])",
+  "description": "Returns depreciation for any period using the variable declining balance method."
+ },
+ {
+  "name": "VLOOKUP",
+  "category": "Lookup & Reference",
+  "signature": "VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])",
+  "description": "Looks in the first column of a table and returns the value in a given column."
+ },
+ {
+  "name": "VSTACK",
+  "category": "Lookup & Reference",
+  "signature": "VSTACK(array1, [array2], ...)",
+  "description": "Appends arrays vertically, one after the other."
+ },
+ {
+  "name": "WEBSERVICE",
+  "category": "Web",
+  "signature": "WEBSERVICE(url)",
+  "description": "Returns data from a web service."
+ },
+ {
+  "name": "WEEKDAY",
+  "category": "Date & Time",
+  "signature": "WEEKDAY(serial_number, [return_type])",
+  "description": "Converts a serial number to a day of the week."
+ },
+ {
+  "name": "WEEKNUM",
+  "category": "Date & Time",
+  "signature": "WEEKNUM(serial_number, [return_type])",
+  "description": "Converts a serial number to the week number of the year."
+ },
+ {
+  "name": "WEIBULL",
+  "category": "Compatibility",
+  "signature": "WEIBULL(x, alpha, beta, cumulative)",
+  "description": "Returns the Weibull distribution (use WEIBULL.DIST)."
+ },
+ {
+  "name": "WEIBULL.DIST",
+  "category": "Statistical",
+  "signature": "WEIBULL.DIST(x, alpha, beta, cumulative)",
+  "description": "Returns the Weibull distribution."
+ },
+ {
+  "name": "WORKDAY",
+  "category": "Date & Time",
+  "signature": "WORKDAY(start_date, days, [holidays])",
+  "description": "Returns the date a number of working days before or after a date."
+ },
+ {
+  "name": "WORKDAY.INTL",
+  "category": "Date & Time",
+  "signature": "WORKDAY.INTL(start_date, days, [weekend], [holidays])",
+  "description": "Returns a workday date using custom weekend parameters."
+ },
+ {
+  "name": "WRAPCOLS",
+  "category": "Lookup & Reference",
+  "signature": "WRAPCOLS(vector, wrap_count, [pad_with])",
+  "description": "Wraps a row or column of values into columns after a set number of values."
+ },
+ {
+  "name": "WRAPROWS",
+  "category": "Lookup & Reference",
+  "signature": "WRAPROWS(vector, wrap_count, [pad_with])",
+  "description": "Wraps a row or column of values into rows after a set number of values."
+ },
+ {
+  "name": "XIRR",
+  "category": "Financial",
+  "signature": "XIRR(values, dates, [guess])",
+  "description": "Returns the internal rate of return for irregularly timed cash flows."
+ },
+ {
+  "name": "XLOOKUP",
+  "category": "Lookup & Reference",
+  "signature": "XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])",
+  "description": "Searches a range or array for a match and returns the corresponding item from a second range."
+ },
+ {
+  "name": "XMATCH",
+  "category": "Lookup & Reference",
+  "signature": "XMATCH(lookup_value, lookup_array, [match_mode], [search_mode])",
+  "description": "Returns the relative position of an item in an array or range."
+ },
+ {
+  "name": "XNPV",
+  "category": "Financial",
+  "signature": "XNPV(rate, values, dates)",
+  "description": "Returns the net present value for irregularly timed cash flows."
+ },
+ {
+  "name": "XOR",
+  "category": "Logical",
+  "signature": "XOR(logical1, [logical2], ...)",
+  "description": "Returns a logical exclusive OR of all arguments."
+ },
+ {
+  "name": "YEAR",
+  "category": "Date & Time",
+  "signature": "YEAR(serial_number)",
+  "description": "Converts a serial number to a year."
+ },
+ {
+  "name": "YEARFRAC",
+  "category": "Date & Time",
+  "signature": "YEARFRAC(start_date, end_date, [basis])",
+  "description": "Returns the year fraction between two dates."
+ },
+ {
+  "name": "YIELD",
+  "category": "Financial",
+  "signature": "YIELD(settlement, maturity, rate, pr, redemption, frequency, [basis])",
+  "description": "Returns the yield on a security that pays periodic interest."
+ },
+ {
+  "name": "YIELDDISC",
+  "category": "Financial",
+  "signature": "YIELDDISC(settlement, maturity, pr, redemption, [basis])",
+  "description": "Returns the annual yield for a discounted security."
+ },
+ {
+  "name": "YIELDMAT",
+  "category": "Financial",
+  "signature": "YIELDMAT(settlement, maturity, issue, rate, pr, [basis])",
+  "description": "Returns the annual yield of a security that pays interest at maturity."
+ },
+ {
+  "name": "Z.TEST",
+  "category": "Statistical",
+  "signature": "Z.TEST(array, x, [sigma])",
+  "description": "Returns the one-tailed probability value of a z-test."
+ },
+ {
+  "name": "ZTEST",
+  "category": "Compatibility",
+  "signature": "ZTEST(array, x, [sigma])",
+  "description": "Returns the one-tailed probability value of a z-test (use Z.TEST)."
+ }
+]

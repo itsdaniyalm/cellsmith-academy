@@ -1,0 +1,27 @@
+{
+  "name": "cellsmith-academy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A free course that teaches the Excel formula language from the first =SUM to LAMBDA.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "extract": "node scripts/extract.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "author": "Muhammad Daniyal",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsdaniyalm/cellsmith-academy.git"
+  },
+  "homepage": "https://itsdaniyalm.github.io/cellsmith-academy/",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "markdown-it": "14.1.0",
+    "markdown-it-container": "4.0.0"
+  }
+}
